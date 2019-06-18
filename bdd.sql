@@ -76,3 +76,8 @@ ALTER TABLE `users`
 --
 ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+
+INSERT INTO `users` (`id`, `pseudo`, `password`, `mail`, `rang`) VALUES 
+(1 , 'admin' , 'admin' , 'admin@gmail.com' , 0 ),
+(2 , 'admin2' , 'admin2' , 'admin2@gmail.com' , 1 )
