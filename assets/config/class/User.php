@@ -31,7 +31,7 @@ class User {
             echo"Le mot de passe ne correspond pas";
 
         } else {
-            echo 'Salut' . $_SESSION['pseudo'];
+            
             $_SESSION['user'] = $user;
             
         } 
@@ -40,10 +40,10 @@ class User {
 	public function disconnect() {
 		// Déconnexion
 
-		if (isset($_POST['logout'])) {
+
 			
 			unset($_SESSION['user']);
 			header('Location: index.php');
-		}
+		
 	}
 }
