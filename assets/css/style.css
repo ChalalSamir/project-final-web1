@@ -1,11 +1,7 @@
-
-
 .bgvid {
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
-
-    
+    object-fit: cover;  
 }
 
 .intro {
@@ -17,6 +13,11 @@
 .vidpause {
     position: absolute;
     top: 46%;
+}
+
+.scroll {
+    position: absolute;
+    top: 30%;
 }
 
 body {

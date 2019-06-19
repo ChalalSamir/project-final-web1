@@ -62,6 +62,9 @@ function setTranslateX(element, progression) {
 }
 
 
+
+
+
 var video = document.querySelector('.bgvid');
 var pause = document.querySelector('.vidpause');
 let state = true;
@@ -73,5 +76,3 @@ pause.addEventListener('click' , function() {
         video.play();
     }
 })
-
-

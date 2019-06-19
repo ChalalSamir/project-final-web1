@@ -14,8 +14,10 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
 			<button class="vidpause">Pause</button>
 
+			<button class="scroll">scroll</button>
+
 	</section>
-	
+
 	<section class="section section--horizontal">
   <div class="section__inner">
     <div class="products">
