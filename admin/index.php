@@ -7,23 +7,46 @@
   <title>test</title>
 </head>
 <body>
+
   <?php
+  require '../assets/config/bootstrap.php';
+  $page_title = 'TchernoByLegassov - Administrateur';
 
 
-  require __DIR__ . '/inc/bootstrap.php';
+  if (isset($_POST['login']) ) {
+      $user->connect($pdo);
+  }
+
+  if(isset($_GET['disconnect'])) {
+      $user->disconnect();
+  }
 
 
-  if(isset($_POST['send'])) {
-      $post->addPost($pdo);
+  if(!isset($_SESSION['user'])) {
+
+
+      ?>
+
+
+      <form class="connexion__form" action="index.php" method="post">
+          <label class="form__label" for="indent">Email / Pseudo</label>
+          <input class="form__field" id="indent" type="text" class="form-control" name="identifiant">
+
+          <label class="form__label" for="password">Mot de passe</label>
+          <input class="form__field" type="password" id="password" name="password" class="form-control">
+
+          <input class="form__submit"  type="submit" name="login" class="" value="Connexion"> <br>
+      </form>
+
+      <?php
+
+  } else {
+      echo 'Salut ' . $_SESSION['user']['pseudo'];?> <br>
+      <a href="index.php?disconnect">Déconnexion</a> <br>
+      <a href="addPost.php">Ajouter un post</a>
+      <?php
+
   }
   ?>
-
-  <form action="#" method="post">
-     <p> <label for="title">Titre : </label>
-         <input type="text" name="title"></p>
-     <p> <label for="content">Contenu : </label>
-         <textarea name="content" cols="30" rows="10"></textarea></p>
-      <input type="submit" name="send">
-  </form>
 </body>
 </html>
