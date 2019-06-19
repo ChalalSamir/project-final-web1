@@ -5,14 +5,39 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
 
 ?>
+<main class="container">
 
-<div id="container">
-  <div id="container2">
-    <div class="box one"><div>1</div></div>
-    <div class="box two"><div>2</div></div>
-    <div class="box three"><div>3</div></div>
-    <div class="box four"><div>Last</div></div>
+	<section class="section">
+			<video poster="assets/images/poster.jpg" muted  autoplay loop class="bgvid" >
+				<source src="assets/videos/intro.mp4" type="video/mp4">
+			</video>
+
+			<button class="vidpause">Pause</button>
+
+	</section>
+	
+	<section class="section section--horizontal">
+  <div class="section__inner">
+    <div class="products">
+      <div class="products__product">
+        Product 1
+      </div>
+      <div class="products__product">
+        Product 2
+      </div>
+      <div class="products__product">
+        Product 3
+      </div>
+    </div>
   </div>
-</div>
+	</section>
 
-<a href="admin/">[Accéder à l'espace admin]</a>
+</main>
+
+
+
+
+
+
+
+<?php include 'assets/inc/footer.php'; ?>
