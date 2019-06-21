@@ -36,10 +36,4 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
 </main>
 
-
-
-
-
-
-
 <?php include 'assets/inc/footer.php'; ?>
