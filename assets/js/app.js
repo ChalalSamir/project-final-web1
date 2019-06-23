@@ -77,8 +77,10 @@ $('.scroll').eq(0).click(() => {
     scrollTop: $('.section--horizontal').eq(0).offset().top
   }, 300);
 });
+
+// api
 const productList = document.querySelector('#productList');
-asyncFetch('http://localhost:8888/admin/test2.php')
+asyncFetch('http://localhost:8888/admin/api.php')
   .then(data => {
     // Boucle sur la collection
     for (let item of data.articles) {
