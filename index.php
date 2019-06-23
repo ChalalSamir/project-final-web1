@@ -5,7 +5,7 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
 
 ?>
-<main class="container">
+<main class="container body">
 
 	<section class="section">
 			<video poster="assets/images/poster.jpg" muted  autoplay loop class="bgvid" >
@@ -20,26 +20,12 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
 	<section class="section section--horizontal">
   <div class="section__inner">
-    <div class="products">
-      <div class="products__product">
-        Product 1
-      </div>
-      <div class="products__product">
-        Product 2
-      </div>
-      <div class="products__product">
-        Product 3
-      </div>
+    <div class="products" id="productList">
+      
     </div>
-  </div>
+  </div>  
 	</section>
-
+  
 </main>
-
-
-
-
-
-
 
 <?php include 'assets/inc/footer.php'; ?>
