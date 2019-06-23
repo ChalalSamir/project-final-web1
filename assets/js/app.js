@@ -60,17 +60,6 @@ function setTranslateX(element, progression) {
   element.style.transform = 'translateX(' + transform + ')';
 }
 
-var video = document.querySelector('.bgvid');
-var pause = document.querySelector('.vidpause');
-let state = true;
-pause.addEventListener('click', function () {
-  state = state ? false : true;
-  if (state) {
-    video.pause();
-  } else {
-    video.play();
-  }
-})
 // scroll
 $('.scroll').eq(0).click(() => {
   $('html, body').animate({
@@ -86,19 +75,13 @@ asyncFetch('http://localhost:8888/admin/api.php')
     for (let item of data.articles) {
       console.log(item)
       // Ajouter une balise dans le DOM
+
+
       productList.innerHTML += `
       <div class="products__product">
         ${item.title}
       </div>
       `
     }
-  })
-  .catch(err => console.error(err))
-let title = 'mon titre'
-let content = 'mon titre'
-asyncFetch('http://localhost:8888/admin/addPost.php?title=' + title + '&content=' + content + '', 'POST')
-  .then(data => {
-    // Boucle sur la collection
-    console.log(data)
   })
   .catch(err => console.error(err))
