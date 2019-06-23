@@ -60,7 +60,6 @@ function setTranslateX(element, progression) {
   element.style.transform = 'translateX(' + transform + ')';
 }
 
-
 // scroll
 $('.scroll').eq(0).click(() => {
   $('html, body').animate({
@@ -76,19 +75,13 @@ asyncFetch('http://localhost:8888/project-final-web1/admin/api.php')
     for (let item of data.articles) {
       console.log(item)
       // Ajouter une balise dans le DOM
+
+
       productList.innerHTML += `
       <div class="products__product">
         ${item.title}
       </div>
       `
     }
-  })
-  .catch(err => console.error(err))
-let title = 'mon titre'
-let content = 'mon titre'
-asyncFetch('http://localhost:8888/project-final-web1/admin/addPost.php?title=' + title + '&content=' + content + '', 'POST')
-  .then(data => {
-    // Boucle sur la collection
-    console.log(data)
   })
   .catch(err => console.error(err))
