@@ -7,14 +7,21 @@ $page_title = 'TchernoByLegassov - Administrateur';
 ?>
 <main class="container body">
 	
-			<button class="vidpause">Pause</button>
+
 
 	<section class="section section--horizontal">
   <div class="section__inner">
     <div class="products" id="productList">
-      
+		<div class="products__product">
+			<h1>Valerie Legasov</h1>
+			<h2>1936 - 1938</h2>
+			<h2>L'envers du décor</h2>
+		</div>
     </div>
+	
   </div>  
+	
+
 	</section>
   
 </main>

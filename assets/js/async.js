@@ -14,7 +14,7 @@ const asyncFetch = (path, type = 'GET', data = null) => {
         return resolve(dataJson)
       }
     } else if (type === 'POST') {
-      console.log(data)
+
       // Lancer la requête
       const response = await fetch(path);
 

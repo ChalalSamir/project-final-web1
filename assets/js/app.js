@@ -69,7 +69,7 @@ $('.scroll').eq(0).click(() => {
 
 // api
 const productList = document.querySelector('#productList');
-asyncFetch('http://localhost:8888/admin/api.php')
+asyncFetch('http://localhost:8888/project-final-web1/admin/api.php')
   .then(data => {
     // Boucle sur la collection
     for (let item of data.articles) {
