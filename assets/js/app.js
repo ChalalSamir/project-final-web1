@@ -60,17 +60,7 @@ function setTranslateX(element, progression) {
   element.style.transform = 'translateX(' + transform + ')';
 }
 
-var video = document.querySelector('.bgvid');
-var pause = document.querySelector('.vidpause');
-let state = true;
-pause.addEventListener('click', function () {
-  state = state ? false : true;
-  if (state) {
-    video.pause();
-  } else {
-    video.play();
-  }
-})
+
 // scroll
 $('.scroll').eq(0).click(() => {
   $('html, body').animate({
@@ -80,7 +70,7 @@ $('.scroll').eq(0).click(() => {
 
 // api
 const productList = document.querySelector('#productList');
-asyncFetch('http://localhost:8888/admin/api.php')
+asyncFetch('http://localhost:8888/project-final-web1/admin/api.php')
   .then(data => {
     // Boucle sur la collection
     for (let item of data.articles) {
@@ -96,7 +86,7 @@ asyncFetch('http://localhost:8888/admin/api.php')
   .catch(err => console.error(err))
 let title = 'mon titre'
 let content = 'mon titre'
-asyncFetch('http://localhost:8888/admin/addPost.php?title=' + title + '&content=' + content + '', 'POST')
+asyncFetch('http://localhost:8888/project-final-web1/admin/addPost.php?title=' + title + '&content=' + content + '', 'POST')
   .then(data => {
     // Boucle sur la collection
     console.log(data)
