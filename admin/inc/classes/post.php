@@ -2,6 +2,7 @@
 
 
     class Post {
+<<<<<<< HEAD
         /**
          * Function addPost
          * Function used to....
@@ -63,6 +64,24 @@
             }
         }
 
+=======
+
+        public function getAll(PDO $con) {
+
+            $req = $con->query('
+            SELECT * FROM articles order by date DESC
+            ');
+            return $req->fetchAll(PDO::FETCH_ASSOC);
+
+        }
+
+        public function getOne(PDO $con, $id)  {
+
+            $req =  $con->query('SELECT * FROM articles WHERE id=' . $id);
+            return $req->fetch(PDO::FETCH_ASSOC);
+        }
+
+>>>>>>> 79b9a7b13ba5887078ee18df4528bc2d64015b5d
         public function update(PDO $con, $id) {
 			$title = $_POST['title'];
 			$content = $_POST['content'];
@@ -83,6 +102,7 @@
 				echo 'modifié';
 			}
     }
+<<<<<<< HEAD
 
     public function getOne(PDO $con, $id)  {
         $req =  $con->query('SELECT * FROM articles WHERE id=' . $id);
@@ -102,6 +122,8 @@
             echo 'Article introuvable';
         }
     }
+=======
+>>>>>>> 79b9a7b13ba5887078ee18df4528bc2d64015b5d
 }
 
 ?>
