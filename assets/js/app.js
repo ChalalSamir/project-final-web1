@@ -60,12 +60,6 @@ function setTranslateX(element, progression) {
   element.style.transform = 'translateX(' + transform + ')';
 }
 
-// scroll
-$('.scroll').eq(0).click(() => {
-  $('html, body').animate({
-    scrollTop: $('.section--horizontal').eq(0).offset().top
-  }, 300);
-});
 
 // api
 const productList = document.querySelector('#productList');
@@ -89,15 +83,24 @@ asyncFetch('http://localhost:8888/project-final-web1/admin/api.php')
 
 // open homepage
 
-window.addEventListener('DOMContentLoaded', function () {
-  setTimeout(() => {
-    document.querySelector('.top').classList.add('up');
-    document.querySelector('.bottom').classList.add('down')
-  }, 500);
+// window.addEventListener('DOMContentLoaded', function () {
+//   setTimeout(() => {
+//     document.querySelector('.top').classList.add('up');
+//     document.querySelector('.bottom').classList.add('down')
+//   }, 500);
 
-})
+// })
+// let check = 0;
+// window.addEventListener('wheel', () => {
+//   console.log(window.scrollY);
+//   if (window.scrollY > 180 && check === 0) {
+//     check = 1;
+//     window.scrollTo(0, 2030);
+//   }
+//   if (window.scrollY < 180) {
+//     check = 0;
+//   }
+// })
 
-window.addEventListener('wheel', (e) => {
-  e.preventDefault;
-  console.log('ok');
-})
+
+
