@@ -1,9 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400&display=swap');
 
+*{
+  box-sizing: border-box;
+}
+
+
+
+@keyframes triangle_go {
+  from {
+    transform: translateX(-100vw);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+@keyframes triangle--text {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes chapter {
+  from {
+    transform: translateY(100vh);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
 
 body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    border: 0;
+    padding: 0;
   }
   
   .section {
@@ -12,12 +59,11 @@ body {
   }
   
   .section--horizontal {
-    height: 300vw;
+    height: 400vw;
   }
   .section--horizontal .section__inner {
-    width: 300vw;
+    width: 400vw;
     height: 100vh;
-  
     position: absolute;
     top: 0;
     left: 0;
@@ -44,6 +90,8 @@ body {
     justify-content: center;
     font-size: 100px;
     font-family: Helvetica, sans-serif;
+    background-color:rgb(107, 9, 9);
+
   }
 
 .fil {
@@ -66,11 +114,189 @@ body {
   width: 100px;
   background-color:rgb(219, 17, 17);
   color:red;
-
 }
 
 .products__product:nth-child(1) {
     flex-direction: column;
     background: url('../images/bgHome.png') no-repeat ;
-    
+    background-size: cover;
 }
+
+/* article 1 */
+
+.article--one {
+  background: url('../images/bg-arti1.png') no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.triangle {
+  height: 100vh;
+  width: 530px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: triangle_go 1s;
+}
+
+.triangle img {
+  height: 100%;
+  width: 530px;
+  position: absolute;
+}
+
+.triangle p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: white;
+  width: 240px;
+  margin-bottom: 130px;
+  font-size: 40px;
+  position: relative;
+  line-height: 120%;
+  animation: triangle--text 3s;
+}
+
+.bold {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+
+}
+.chapter {
+  height: 160px;
+  width: 100vw;
+  position: relative;
+  bottom: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: chapter 2s;
+}
+
+.line {
+  height: 1px;
+  width: calc(100% - 500px);
+  background: white;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.round {
+  height: 15px;
+  width: 15px;
+  background: #5E9E97;
+  border: 2px solid #92C8BF;
+  border-radius: 10px;
+  box-shadow: 0 0 3px #92C8BF;
+  position: relative;
+}
+
+.is--in {
+  background: white;
+}
+
+.title--chapter {
+  color: white; 
+  font-family: Oswald, sans-serif;
+  font-size: 45px;
+  width: 15%;
+  text-align: center;
+  line-height: 120%;
+  position: absolute;
+  right: 10px;
+  top: -10px;
+}
+
+.round--title {
+  position: absolute;
+  bottom: 40px;
+  right: -15px;
+  font-size: 20px;
+  color: white;
+  font-family: Oswald, sans-serif;
+  line-height: 120%;
+  text-align: center;
+}
+
+/* homepage */
+
+.products__product:nth-child(1) {
+  flex-direction: column;
+  background: url('../images/bgHome.png') no-repeat center ;
+  background-size: cover;
+}
+
+span.v {
+color: #471B29;
+font-size: 10rem;
+
+}
+
+.blocHome {
+height: 100vh;
+background: #191818;
+width: 350px;
+position: absolute;
+left: 0;
+}
+
+.product__author {
+color: white;
+font-family: Agency, sans-serif;
+
+}
+
+.product__date {
+color: white;
+font-size: 4rem;
+margin-left: 2%;
+margin-top: 3%;
+}
+
+.product__title {
+color: white;
+margin-left: 3%;
+font-size: 4rem;
+margin-top: 3%;
+}
+
+.home__text {
+margin-right: 40%;
+margin-top: 30%;
+z-index: 1;
+font-family: Agency, sans-serif;
+animation: fadein 2s forwards;
+animation-delay: 900ms;
+opacity: 0;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  background: black;
+  height: 50vh;
+  width: 100vw;
+  z-index: 3;
+  transition: transform 800ms ease;
+}
+
+.bottom {
+position: absolute;
+bottom: 0;
+background: black;
+height: 50vh;
+width: 100vw;
+z-index: 3;
+transition: transform 800ms ease;
+
+}
+
+.up {
+transform: translateY(-100%);
+}
+
+.down {
+transform: translateY(100%);
+} 

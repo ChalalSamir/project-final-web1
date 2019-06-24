@@ -85,3 +85,19 @@ asyncFetch('http://localhost:8888/project-final-web1/admin/api.php')
     }
   })
   .catch(err => console.error(err))
+
+
+// open homepage
+
+window.addEventListener('DOMContentLoaded', function () {
+  setTimeout(() => {
+    document.querySelector('.top').classList.add('up');
+    document.querySelector('.bottom').classList.add('down')
+  }, 500);
+
+})
+
+window.addEventListener('wheel', (e) => {
+  e.preventDefault;
+  console.log('ok');
+})
