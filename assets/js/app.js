@@ -51,7 +51,6 @@ function setTranslateX(element, progression) {
   } else if (progression < 0) {
     progression = 0;
   }
-
   // The size to move is the element width minus the window width
   var toMove = element.offsetWidth - window.innerWidth;
 
@@ -59,26 +58,18 @@ function setTranslateX(element, progression) {
   var transform = (-1 * toMove * progression) + 'px';
   element.style.transform = 'translateX(' + transform + ')';
 }
-
-
 // api
 const productList = document.querySelector('#productList');
-asyncFetch('http://localhost:8888/project-final-web1/admin/api.php')
-  .then(data => {
-    // Boucle sur la collection
-    for (let item of data.articles) {
-      console.log(item)
-      // Ajouter une balise dans le DOM
+let firstArticle = document.querySelector('#firstArticle');
+let paragraph = document.getElementById('paragraph');
 
-
-      productList.innerHTML += `
-      <div class="products__product">
-        ${item.title}
-      </div>
-      `
-    }
-  })
-  .catch(err => console.error(err))
+asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
+  // Boucle sur la collection
+  for (let item of data.articles) {
+    // Ajouter une balise dans le DOM
+    productList.innerHTML += `<div class="products__product"> ${item.title} </div>`;
+  }
+}).catch(err => console.error(err))
 
 
 // open homepage
@@ -102,5 +93,33 @@ asyncFetch('http://localhost:8888/project-final-web1/admin/api.php')
 //   }
 // })
 
+// page article hover
 
+let postit = document.getElementById('postit');
+let postitTwo = document.getElementById('postitTwo');
+let close = document.getElementById('close');
 
+postit.addEventListener('click', () => {
+  postit.classList.add('hidden');
+  postitTwo.classList.remove('hidden');
+});
+
+close.addEventListener('click', () => {
+  postit.classList.remove('hidden');
+  postitTwo.classList.add('hidden');
+})
+
+// notes 
+
+let notes = document.getElementById('notes');
+let notesText = document.getElementById('notes--text');
+let prompt = 0;
+notes.addEventListener('click', () => {
+  prompt++;
+  notes.classList.remove('close');
+  notes.style.height = '420px';
+  if (prompt === 1) {
+    notesText.innerHTML += "Il cosigne le rapport d’aout 1986 sur les causes de l’explosion.";
+
+  }
+})
