@@ -290,12 +290,10 @@ body {
   box-shadow: white 0 0 2px;
 }
 .round {
-  height: 15px;
-  width: 15px;
-  background: #5E9E97;
-  border: 2px solid #92C8BF;
+  height: 10px;
+  width: 10px;
+  background: white;
   border-radius: 10px;
-  box-shadow: 0 0 3px #92C8BF;
   position: relative;
   transition: 300ms;
 }

@@ -8,8 +8,8 @@ $page_title = 'TchernoByLegassov - Administrateur';
   <main class="container body">
       <div class="article--two">
       <div class="right">
-    <h2>En 1976,</h2>
-    <p id="paragraph"></p>
+    <h2 id="date"></h2>
+    <p id="paragraphOne"></p>
   </div>
         <div class="chapter chapter--art2">
           <div class="line">
@@ -33,8 +33,7 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
       <div class="postit postit--open hidden" id="postitTwo">
         <i id="close">X</i>
-         <p>
-         Il participe à la <span class="bold">commission gouvernenementale formée en urgence par le président soviétive Gorbatchev.</span> Il est en charge des équipes scientifiques et techniques sur le site de la catastrophe
+         <p id="paragraphTwo" >
          </p>
       </div>
         <div class="chapter chapter--art2">
