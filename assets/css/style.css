@@ -840,7 +840,6 @@ transform: translateY(100%);
   color: red;
   font-size: 30px;
   text-decoration: none;
-<<<<<<< HEAD
   border: 1px white solid;
   border-radius: 30px;
   height: 40px;
@@ -849,6 +848,3 @@ transform: translateY(100%);
   align-items: center;
   justify-content: center;
 }
-=======
-}
->>>>>>> 8a398fa8c857a5516ad2f0c1d1cf7d5b401d8692
