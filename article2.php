@@ -1,47 +1,12 @@
 <?php
 require 'assets/config/bootstrap.php';
 include 'assets/inc/header.php';
-$page_title = 'TchernoByLegassov - Administrateur';
-
-
 ?>
 <main class="container body">
-
-<section class="section section--horizontal">
-	<div class="section__inner">
-		<div class="products" id="productList">
-			<!-- home page -->
-			<div class="products__product section--horizontal">
-				<div class="home__text">
-					<h1 class="product__author"><span class="v">V</span>alerie Legasov</h1>
-					<h2 class="product__date">1936 - 1938</h2>
-					<h2 class="product__title" id="firstArticle">L'envers du décor</h2>
-					<div class="next"><a href="#two">></a></div>
-				</div>
-				<div class="blocHome"></div>
-			</div>
-			<div class="products__product section--horizontal" id="two">
-				<div class="article--one">
-					<div class="triangle">
-						<img src="assets/images/triangle1.svg" alt="">
-						<p class="triangle--text">
-							<span class="bold">Valery Legasov</span> fut parmis les initiateurs du programme nucléaire soviétique.
-						</p>
-					</div>
-					
-			
-			</div>
-		</div>
-
-	</div>
-</section>
-
-
-<!-- 2 -->
-
-<section>
-<div class="articleTwo">
+  
+  <div class="articleTwo">
     <h1 class="articleTwo__title">Tchernobyl</h1>
+    <div class="titleContainer"></div>
   </div>
 
   <div class="chapter--articles">
@@ -56,6 +21,7 @@ $page_title = 'TchernoByLegassov - Administrateur';
   </div>
   <div class="articleTwo__page2">
       <h1 class="page2__title">Tchernobyl</h1>
+      <div class="page2__titleContainer"></div>
         <div class="typrewritter">
         <p class="css-typing">
         Le 26 avril 1986 à 1h23 du matin,
@@ -128,8 +94,6 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
 
   
-
-</section>
 
 </main>
 

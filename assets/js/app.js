@@ -68,7 +68,6 @@ asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data =
   for (let item of data.articles) {
     // Ajouter une balise dans le DOM
     productList.innerHTML += `<div class="products__product"> ${item.title} </div>`;
-    paragraph.innerHTML = `${items.title}`;
   }
 
 }).catch(err => console.error(err))

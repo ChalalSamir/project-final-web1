@@ -14,8 +14,6 @@ let articleOne = () => {
     // Boucle sur la collection
     // Ajouter une balise dans le DOM
     paragraphOne.innerHTML += `${data.articles[1].paragraph_one}`;
-
-
   }).catch(err => console.error(err))
 
 
@@ -24,8 +22,6 @@ let articleOne = () => {
     // Boucle sur la collection
     // Ajouter une balise dans le DOM
     paragraphTwo.innerHTML += `${data.articles[1].paragraph_two}`;
-
-
   }).catch(err => console.error(err));
 
 };
