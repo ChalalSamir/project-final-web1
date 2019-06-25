@@ -88,4 +88,17 @@ close.addEventListener('click', () => {
   postitTwo.classList.add('hidden');
 })
 
+// chapter appear
+
+let chapter = document.getElementById('chapter');
+
+window.addEventListener('wheel', () => {
+  if (scrollY >= 1000) {
+    chapter.style.opacity = '1';
+  } else {
+    chapter.style.opacity = '0';
+  }
+
+})
+
 

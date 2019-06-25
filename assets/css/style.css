@@ -93,12 +93,10 @@
 @keyframes chapter {
   from {
     transform: translateY(100vh);
-    opacity: 0;
   }
 
   to {
     transform: translateY(0);
-    opacity: 1;
   }
 }
 
@@ -366,6 +364,8 @@ body {
   justify-content: center;
   animation: chapter 2s;
   z-index: 10;
+  opacity: 0;
+  transition: 500ms opacity;
 }
 
 .chapter--relative {

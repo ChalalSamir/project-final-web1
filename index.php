@@ -8,6 +8,17 @@ $page_title = 'TchernoByLegassov - Administrateur';
 <main class="container body">
 
 <section class="section section--horizontal">
+<div class="chapter chapter--art2" id="chapter">
+          <div class="line">
+            <div class="round">
+              <p class="round--title">Un génie nucléaire</p>
+            </div>
+            <div class="round"></div>
+            <div class="round is--in"></div>
+            <div class="round"></div>
+          </div>
+        </div>
+      </div>
 	<div class="section__inner">
 		<div class="products" id="productList">
 			<!-- home page -->
@@ -28,8 +39,6 @@ $page_title = 'TchernoByLegassov - Administrateur';
 							<span class="bold">Valery Legasov</span> fut parmis les initiateurs du programme nucléaire soviétique.
 						</p>
 					</div>
-					
-			
 			</div>
 		</div>
 
@@ -42,17 +51,7 @@ $page_title = 'TchernoByLegassov - Administrateur';
     <h2 id="date"></h2>
     <p id="paragraphOne"></p>
   </div>
-        <div class="chapter chapter--art2">
-          <div class="line">
-            <div class="round">
-              <p class="round--title">Un génie nucléaire</p>
-            </div>
-            <div class="round"></div>
-            <div class="round is--in"></div>
-            <div class="round"></div>
-          </div>
-        </div>
-      </div>
+        
 <!-- 2 -->
 <div class="article--two bg2">
       <div class="postit" id="postit">
@@ -63,17 +62,6 @@ $page_title = 'TchernoByLegassov - Administrateur';
         <i id="close">X</i>
          <p id="paragraphTwo" >
          </p>
-      </div>
-        <div class="chapter chapter--art2">
-          <div class="line">
-            <div class="round">
-              <p class="round--title">Un génie nucléaire</p>
-            </div>
-            <div class="round"></div>
-            <div class="round is--in"></div>
-            <div class="round"></div>
-          </div>
-        </div>
       </div>
 </div>
 <!-- 3 -->
