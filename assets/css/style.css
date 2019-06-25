@@ -154,7 +154,7 @@ body {
 
   }
   .section--horizontal {
-    height: 400vw;
+    height: 200vw;
   }
 
   .section--horizontal--modifier {
@@ -162,7 +162,7 @@ body {
 
   }
   .section--horizontal .section__inner {
-    width: 400vw;
+    width: 200vw;
     height: 100vh;
     position: absolute;
     top: 0;

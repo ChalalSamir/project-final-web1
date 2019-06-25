@@ -59,43 +59,18 @@ function setTranslateX(element, progression) {
   element.style.transform = 'translateX(' + transform + ')';
 }
 // api
-const productList = document.querySelector('#productList');
-let firstArticle = document.querySelector('#firstArticle');
-let paragraph = document.getElementById('paragraph');
+// const productList = document.querySelector('#productList');
+// let firstArticle = document.querySelector('#firstArticle');
+// let paragraph = document.getElementById('paragraph');
 
-asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
-  // Boucle sur la collection
-  for (let item of data.articles) {
-    // Ajouter une balise dans le DOM
-    productList.innerHTML += `<div class="products__product"> ${item.title} </div>`;
-  }
-
-}).catch(err => console.error(err))
-
-
-
-
-
-// open homepage
-
-// window.addEventListener('DOMContentLoaded', function () {
-//   setTimeout(() => {
-//     document.querySelector('.top').classList.add('up');
-//     document.querySelector('.bottom').classList.add('down')
-//   }, 500);
-
-// })
-// let check = 0;
-// window.addEventListener('wheel', () => {
-//   console.log(window.scrollY);
-//   if (window.scrollY > 180 && check === 0) {
-//     check = 1;
-//     window.scrollTo(0, 2030);
+// asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
+//   // Boucle sur la collection
+//   for (let item of data.articles) {
+//     // Ajouter une balise dans le DOM
+//     productList.innerHTML += `<div class="products__product"> ${item.title} </div>`;
 //   }
-//   if (window.scrollY < 180) {
-//     check = 0;
-//   }
-// })
+
+// }).catch(err => console.error(err))
 
 // page article hover
 

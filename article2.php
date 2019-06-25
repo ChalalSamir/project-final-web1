@@ -79,8 +79,8 @@ include 'assets/inc/header.php';
 </div> -->
   
 
-<section class="section section--horizontal">
-	<div class="section__inner">
+<section class="section section--horizontal section--horizontal--modifier">
+	<div class="section__inner modifier">
 		<div class="products" id="productList">
 			<div class="products__product section--horizontal typrewritter--1">
 			</div>
