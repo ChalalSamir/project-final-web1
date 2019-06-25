@@ -5,28 +5,63 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
 
 ?>
-<main class="container body article--one">
-  
-  <div class="triangle">
-    <img src="assets/images/triangle1.svg" alt="">
-    <p class="triangle--text">
-    <span class="bold">Valery Legasov</span> fut parmis les initiateurs du programme nucléaire soviétique.
-    </p>
+  <main class="container body">
+      <div class="article--two">
+      <div class="right">
+    <h2>En 1976,</h2>
+    <p id="paragraph"></p>
   </div>
-  <div class="chapter">
-    <div class="line">
-      <div class="round">
-        <p class="round--title">Un génie nucléaire</p>
+        <div class="chapter chapter--art2">
+          <div class="line">
+            <div class="round">
+              <p class="round--title">Un génie nucléaire</p>
+            </div>
+            <div class="round"></div>
+            <div class="round is--in"></div>
+            <div class="round"></div>
+          </div>
+        
+        </div>
       </div>
-      <div class="round"></div>
-      <div class="round is--in"></div>
-      <div class="round"></div>
-    </div>
-    <div class="title--chapter">
-       <p>Un génie du nucléaire</p>
+<!-- 2 -->
+   
+<div class="article--two bg2">
+      <div class="postit" id="postit">
+          <div class="postit__in">
+          </div>
       </div>
-  </div>
 
-</main>
+      <div class="postit postit--open hidden" id="postitTwo">
+        <i id="close">X</i>
+         <p>
+         Il participe à la <span class="bold">commission gouvernenementale formée en urgence par le président soviétive Gorbatchev.</span> Il est en charge des équipes scientifiques et techniques sur le site de la catastrophe
+         </p>
+      </div>
+        <div class="chapter chapter--art2">
+          <div class="line">
+            <div class="round">
+              <p class="round--title">Un génie nucléaire</p>
+            </div>
+            <div class="round"></div>
+            <div class="round is--in"></div>
+            <div class="round"></div>
+          </div>
+        
+        </div>
+      </div>
+</div>
+
+<!-- 3 -->
+
+<div class="article--two bg3">
+      
+       <div class="notes close" id="notes">
+       <p id="notes--text">
+         
+         </p>
+       </div>
+</div>
+  </main>
+
 
 <?php include 'assets/inc/footer.php'; ?>
