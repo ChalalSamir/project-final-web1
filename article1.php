@@ -2,8 +2,6 @@
 require 'assets/config/bootstrap.php';
 include 'assets/inc/header.php';
 $page_title = 'TchernoByLegassov - Administrateur';
-
-
 ?>
   <main class="container body">
       <div class="article--two">
@@ -20,17 +18,14 @@ $page_title = 'TchernoByLegassov - Administrateur';
             <div class="round is--in"></div>
             <div class="round"></div>
           </div>
-        
         </div>
       </div>
 <!-- 2 -->
-   
 <div class="article--two bg2">
       <div class="postit" id="postit">
           <div class="postit__in">
           </div>
       </div>
-
       <div class="postit postit--open hidden" id="postitTwo">
         <i id="close">X</i>
          <p id="paragraphTwo" >
@@ -45,18 +40,13 @@ $page_title = 'TchernoByLegassov - Administrateur';
             <div class="round is--in"></div>
             <div class="round"></div>
           </div>
-        
         </div>
       </div>
 </div>
-
 <!-- 3 -->
-
 <div class="article--two bg3">
-      
        <div class="notes close" id="notes">
        <p id="notes--text">
-         
          </p>
        </div>
 </div>
