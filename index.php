@@ -113,21 +113,14 @@ $page_title = 'TchernoByLegassov - Administrateur';
 </div> -->
   
 
-<section class="section section--horizontal">
-	<div class="section__inner">
+<section class="section section--horizontal modifier">
+	<div class="section__inner modifier">
 		<div class="products" id="productList">
 			<div class="products__product section--horizontal typrewritter--1">
 			</div>
 		</div>
 	</div>
 </section>
-
-
-
-
-
-
-  
 
 </section>
 

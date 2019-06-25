@@ -154,10 +154,10 @@ body {
 
   }
   .section--horizontal {
-    height: 500vw;
+    height: 400vw;
   }
   .section--horizontal .section__inner {
-    width: 500vw;
+    width: 400vw;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -226,7 +226,6 @@ body {
   background: url('../images/bg-arti1.png') no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
 }
 
 .article--two {
