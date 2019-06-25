@@ -55,25 +55,44 @@ include 'assets/inc/header.php';
 <div class="articleTwo__page4">
 
   <div class="page4__cheminContaint">
-  <div class="chemin3"></div>
-  <div class="chemin4"></div>
-  <div class="chemin5"></div>
-  <div class="chemin6"></div>
-
-</div>
+    <div class="chemin3"></div>
+    <div class="chemin4"></div>
+    <div class="chemin5"></div>
+    <div class="chemin6"></div>
+  </div>
 
   <div class="page__article4">
     <img src="assets/images/article2-p4.png" alt="" class="article4__img">
     <div class="article4__text">
       <p> 12 heures après l’explosion de la  
-  centrale,  M. Legasov a été nommé à la commission   
-  spéciale du gouvernement </p>
+          centrale,  M. Legasov a été nommé à la commission   
+          spéciale du gouvernement </p>
 
-      <p>Les 2 premiers jours aucune information n’est communiquée  au gouvernement de l’URSS, alors paralysé dans ses décisions</p>
+      <p>Les 2 premiers jours aucune information n’est communiquée  au gouvernement de l’URSS, alors paralysé dans ses décisions
+</p>
     </div>
   </div>
   
 </div>
+
+<!-- <div class="typrewritter--1">
+        <p class="css-typing--1">
+        Pourtant, le taux de radioactivité détecté dans la ville de Pripiat est préocupant
+        </p>
+</div> -->
+  
+
+<section class="section section--horizontal">
+	<div class="section__inner">
+		<div class="products" id="productList">
+			<div class="products__product section--horizontal typrewritter--1">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
 
 
 

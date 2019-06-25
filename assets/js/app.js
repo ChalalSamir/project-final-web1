@@ -68,8 +68,13 @@ asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data =
   for (let item of data.articles) {
     // Ajouter une balise dans le DOM
     productList.innerHTML += `<div class="products__product"> ${item.title} </div>`;
+    paragraph.innerHTML = `${items.title}`;
   }
+
 }).catch(err => console.error(err))
+
+
+
 
 
 // open homepage
@@ -109,17 +114,4 @@ close.addEventListener('click', () => {
   postitTwo.classList.add('hidden');
 })
 
-// notes 
 
-let notes = document.getElementById('notes');
-let notesText = document.getElementById('notes--text');
-let prompt = 0;
-notes.addEventListener('click', () => {
-  prompt++;
-  notes.classList.remove('close');
-  notes.style.height = '420px';
-  if (prompt === 1) {
-    notesText.innerHTML += "Il cosigne le rapport d’aout 1986 sur les causes de l’explosion.";
-
-  }
-})
