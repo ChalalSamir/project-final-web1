@@ -39,7 +39,7 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
 <!-- 2 -->
 
-<section>
+
 <div class="articleTwo">
     <h1 class="articleTwo__title">Tchernobyl</h1>
   </div>
@@ -113,16 +113,16 @@ $page_title = 'TchernoByLegassov - Administrateur';
 </div> -->
   
 
-<section class="section section--horizontal modifier">
+<section class="section section--horizontal section--horizontal--modifier">
 	<div class="section__inner modifier">
-		<div class="products" id="productList">
+		<div class="products modifier" id="productList">
 			<div class="products__product section--horizontal typrewritter--1">
 			</div>
 		</div>
 	</div>
 </section>
 
-</section>
+
 
 </main>
 
