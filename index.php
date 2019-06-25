@@ -11,11 +11,12 @@ $page_title = 'TchernoByLegassov - Administrateur';
 	<div class="section__inner">
 		<div class="products" id="productList">
 			<!-- home page -->
-			<div class="products__product">
+			<div class="products__product section--horizontal">
 				<div class="home__text">
 					<h1 class="product__author"><span class="v">V</span>alerie Legasov</h1>
 					<h2 class="product__date">1936 - 1938</h2>
 					<h2 class="product__title"><a href="#two">L'envers du décor</a></h2>
+					<a href="test.php">clique</a>
 				</div>
 				<div class="blocHome"></div>
 			</div>
@@ -29,6 +30,7 @@ $page_title = 'TchernoByLegassov - Administrateur';
 							<span class="bold">Valery Legasov</span> fut parmis les initiateurs du programme nucléaire soviétique.
 						</p>
 					</div>
+					
 					<div class="chapter">
 						<div class="line">
 							<div class="round">
@@ -46,6 +48,7 @@ $page_title = 'TchernoByLegassov - Administrateur';
 				</div>
 			</div>
 
+		
 
 
 		</div>
