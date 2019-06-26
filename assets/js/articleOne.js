@@ -1,4 +1,4 @@
-let articleOne = () => {
+let articleOne = (id) => {
   let date = document.getElementById('date');
   let paragraphOne = document.getElementById('paragraphOne');
   let paragraphTwo = document.getElementById('paragraphTwo');
@@ -7,16 +7,10 @@ let articleOne = () => {
   asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
     // Boucle sur la collection
     // Ajouter une balise dans le DOM
-    date.innerHTML += `${data.articles[1].date_article}`;
-    paragraphOne.innerHTML += `${data.articles[1].paragraph_one}`;
-    paragraphTwo.innerHTML += `${data.articles[1].paragraph_two}`;
-
-
-
+    date.innerHTML += `${data.articles[id].date_article}`;
+    paragraphOne.innerHTML += `${data.articles[id].paragraph_one}`;
+    paragraphTwo.innerHTML += `${data.articles[id].paragraph_two}`;
   }).catch(err => console.error(err))
-
-
-
 };
 
 // paragraph3
@@ -34,15 +28,10 @@ notes.addEventListener('click', () => {
     asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
       // Boucle sur la collection
       // Ajouter une balise dans le DOM
-      notesText.innerHTML += `${data.articles[1].paragraph_three}`;
-
-
+      notesText.innerHTML += `${data.articles[id].paragraph_three}`;
     }).catch(err => console.error(err))
-
-
   }
 })
+articleOne(3);
 
 
-
-articleOne();

@@ -6,10 +6,10 @@ include 'assets/inc/header.php';
 
 
   <div class="articleTwo__page2">
-      <h1 class="page2__title">Tchernobyl</h1>
+      <h1 class="page2__title" id="titleArticleTwo"></h1>
       <div class="page2__titleContainer"></div>
         <div class="typrewritter">
-        <p class="css-typing">
+        <p class="css-typing" id="dateArticleTwo">
         Le 26 avril 1986 à 1h23 du matin,
         </p>
         </div>
@@ -22,12 +22,12 @@ include 'assets/inc/header.php';
     <div class="page3__text">
         
         <div class="text__1">
-            <p>Le réacteur n°4 de la centrale nucléaire de Tchernobyl explose</p>
+            <p id="paragraphOneArticleTwo">Le réacteur n°4 de la centrale nucléaire de Tchernobyl explose</p>
             <div class="chemin2"></div>
         </div>
 
         <div class="text__2">
-            <p>suite à un test du système de refroidissement de secours</p>
+            <p  id="paragraphTwoArticleTwo">suite à un test du système de refroidissement de secours</p>
             <div class="chemin1"></div>
         </div>
         
@@ -47,11 +47,11 @@ include 'assets/inc/header.php';
   <div class="page__article4">
     <img src="assets/images/article2-p4.png" alt="" class="article4__img">
     <div class="article4__text">
-      <p> 12 heures après l’explosion de la  
+      <p id="paragraphThreeArticleTwo"> 12 heures après l’explosion de la  
           centrale,  M. Legasov a été nommé à la commission   
           spéciale du gouvernement </p>
 
-      <p>Les 2 premiers jours aucune information n’est communiquée  au gouvernement de l’URSS, alors paralysé dans ses décisions
+      <p id="paragraphFourArticleTwo">Les 2 premiers jours aucune information n’est communiquée  au gouvernement de l’URSS, alors paralysé dans ses décisions
 </p>
     </div>
   </div>
@@ -73,13 +73,6 @@ include 'assets/inc/header.php';
 		</div>
 	</div>
 </section>
-
-
-
-
-
-
-  
 
 </main>
 
