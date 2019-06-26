@@ -4,49 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>test</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Tchernobyl - Administration</title>
 </head>
 <body>
+<div class="container">
 
   <?php
-  require '../assets/config/bootstrap.php';
-  $page_title = 'TchernoByLegassov - Administrateur';
+    require '../assets/config/bootstrap.php';
+    $page_title = 'TchernoByLegassov - Administrateur';
+    if (isset($_POST['login']) ) {
+        $user->connect($pdo);
+    }
+    if(isset($_GET['disconnect'])) {
+        $user->disconnect();
+    }
+    if(!isset($_SESSION['user'])) {
+        ?>
 
+        <div class="form-group">
+        <form class="connexion__form" action="index.php" method="post">
+            <label class="exampleInputUsername" for="indent">Email / Pseudo</label>
+            <input class="form-control" id="indent" type="text" class="form-control" name="identifiant">
 
-  if (isset($_POST['login']) ) {
-      $user->connect($pdo);
-  }
+            <label class="exampleInputPassword1" for="password">Mot de passe</label>
+            <input class="form-control" type="password" id="password" name="password" class="form-control">
 
-  if(isset($_GET['disconnect'])) {
-      $user->disconnect();
-  }
-
-
-  if(!isset($_SESSION['user'])) {
-
-
-      ?>
-
-
-      <form class="connexion__form" action="index.php" method="post">
-          <label class="form__label" for="indent">Email / Pseudo</label>
-          <input class="form__field" id="indent" type="text" class="form-control" name="identifiant">
-
-          <label class="form__label" for="password">Mot de passe</label>
-          <input class="form__field" type="password" id="password" name="password" class="form-control">
-
-          <input class="form__submit"  type="submit" name="login" class="" value="Connexion"> <br>
-      </form>
-
+            <input class="btn btn-primary"  type="submit" name="login" class="" value="Connexion"> <br>
+        </form>
+        </div>
       <?php
-
   } else {
-      echo 'Salut ' . $_SESSION['user']['pseudo'];?> <br>
-      <a href="index.php?disconnect">Déconnexion</a> <br>
-      <a href="addPost.php">Ajouter un post</a>
+      echo 'Bonjour ' . $_SESSION['user']['pseudo'];?> <br>
+      <a href="addPost.php"><div class="btn btn-primary">Gérer les articles</div></a>
+      <a href="index.php?disconnect"><div class="btn btn-danger">Déconnexion</div></a>
       <?php
-
   }
   ?>
+</div>
 </body>
 </html>

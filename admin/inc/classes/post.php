@@ -46,7 +46,7 @@
             $content = $_GET['content'];
             if (empty($titre) and empty($content)) {
 
-               echo 'erreur';
+               echo 'Erreur';
                 die();
             } else {
                 $req = $con->prepare('
@@ -59,7 +59,7 @@
                 $req->bindParam(':title', $title);
                 $req->bindParam(':content', $content);
                 $req->execute();
-                echo 'good';
+                echo 'Article ajouté !';
             }
         }
 
@@ -74,13 +74,35 @@
 				$req = $con->prepare('
 					UPDATE articles
 					SET title = :title,
-							content = :content
+							content = :content,
+							date_article = :date_article,
+							paragraph_one = :paragraph_one,
+							paragraph_two = :paragraph_two,
+							paragraph_three = :paragraph_three,
+							paragraph_four = :paragraph_four,
+							paragraph_five = :paragraph_five,
+							paragraph_six = :paragraph_six,
+							paragraph_seven = :paragraph_seven,
+							paragraph_eight = :paragraph_eight,
+							paragraph_nine = :paragraph_nine,
+							paragraph_ten = :paragraph_ten
 					WHERE id =' . $id);
 				$req->bindParam(':title', $title);
 				$req->bindParam(':content', $content);
+				$req->bindParam(':date_article', $date_article);
+				$req->bindParam(':paragraph_one', $paragraph_one);
+				$req->bindParam(':paragraph_two', $paragraph_two);
+				$req->bindParam(':paragraph_three', $paragraph_three);
+				$req->bindParam(':paragraph_four', $paragraph_four);
+				$req->bindParam(':paragraph_five', $paragraph_five);
+				$req->bindParam(':paragraph_six', $paragraph_six);
+				$req->bindParam(':paragraph_seven', $paragraph_seven);
+				$req->bindParam(':paragraph_eight', $paragraph_eight);
+				$req->bindParam(':paragraph_nine', $paragraph_nine);
+				$req->bindParam(':paragraph_ten', $paragraph_ten);
 				$req->execute();
 
-				echo 'modifié';
+				echo 'L\'article a bien été modifé';
 			}
     }
 

@@ -24,6 +24,4 @@ let articleThree = () => {
 
 }
 
-
-
 articleThree();

@@ -1,28 +1,21 @@
 let articleOne = () => {
   let date = document.getElementById('date');
+  let paragraphOne = document.getElementById('paragraphOne');
+  let paragraphTwo = document.getElementById('paragraphTwo');
+
+
   asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
     // Boucle sur la collection
     // Ajouter une balise dans le DOM
     date.innerHTML += `${data.articles[1].date_article}`;
-
-
-  }).catch(err => console.error(err))
-
-
-  let paragraphOne = document.getElementById('paragraphOne');
-  asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
-    // Boucle sur la collection
-    // Ajouter une balise dans le DOM
     paragraphOne.innerHTML += `${data.articles[1].paragraph_one}`;
+    paragraphTwo.innerHTML += `${data.articles[1].paragraph_two}`;
+
+
+
   }).catch(err => console.error(err))
 
 
-  let paragraphTwo = document.getElementById('paragraphTwo');
-  asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
-    // Boucle sur la collection
-    // Ajouter une balise dans le DOM
-    paragraphTwo.innerHTML += `${data.articles[1].paragraph_two}`;
-  }).catch(err => console.error(err));
 
 };
 
