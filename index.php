@@ -31,10 +31,12 @@ $page_title = 'TchernoByLegassov - Administrateur';
       </div>
 	<div class="section__inner">
 		<div class="products" id="productList">
-			<!-- home page -->
+      <!-- home page -->
+      
 			<div class="products__product section--horizontal">
 				<div class="home__text">
-					<h1 class="product__author"><span class="v">V</span>alerie Legasov</h1>
+          <h1 class="product__author"><span class="v">V</span>alerie Legasov</h1>
+          <div class="cursor" id="cursor"></div>
 					<h2 class="product__date">1936 - 1938</h2>
 					<h2 class="product__title" id="firstArticle">L'envers du décor</h2>
 					<div class="next"><a href="#one"><img src="assets/images/arrow.svg" alt="arrowNext"></a></div>

@@ -111,6 +111,20 @@ body {
     background: black;
 
   }
+
+  /* html {
+    cursor: url('../images/souris.png'), pointer;
+  } */
+
+  .cursor {
+    border: #FBFBFB 1px solid;
+    height: 23px;
+    width: 23px;
+    border-radius: 20px;
+    position: absolute;
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+  }
   
   .section {
     height: 100vh;
