@@ -93,12 +93,10 @@
 @keyframes chapter {
   from {
     transform: translateY(100vh);
-    opacity: 0;
   }
 
   to {
     transform: translateY(0);
-    opacity: 1;
   }
 }
 
@@ -381,6 +379,8 @@ body {
   justify-content: center;
   animation: chapter 2s;
   z-index: 10;
+  opacity: 0;
+  transition: 500ms opacity;
 }
 
 .chapter--relative {
@@ -393,7 +393,7 @@ body {
 }
 
 .line {
-  height: 1px;
+  height: 2px;
   width: calc(100% - 500px);
   background: white;
   position: relative;
@@ -401,6 +401,13 @@ body {
   justify-content: space-around;
   align-items: center;
   box-shadow: white 0 0 2px;
+}
+
+.line__in {
+  position: absolute;
+  background: rgb(206, 9, 9);
+  width: 0%;
+  left:0;
 }
 .round {
   height: 10px;
@@ -416,7 +423,10 @@ body {
 }
 
 .is--in {
-  background: white;
+  background: #5E9E97;
+  box-shadow: #5E9E97 0 0 3px;
+  height: 15px;
+  width: 15px;
 }
 
 .title--chapter {
@@ -440,6 +450,7 @@ body {
   font-family: Oswald, sans-serif;
   line-height: 120%;
   text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.596) 0 0 3px;
 }
 
 .article--one__first {

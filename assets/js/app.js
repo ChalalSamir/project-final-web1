@@ -57,6 +57,13 @@ function setTranslateX(element, progression) {
   // The transform factor is the size to move multiplied by the progression
   var transform = (-1 * toMove * progression) + 'px';
   element.style.transform = 'translateX(' + transform + ')';
+  let roundOne = document.getElementById('roundOne');
+
+  roundOne.addEventListener('click', () => {
+    element.style.transform = 'translateX(' + -100 + 'vw' + ')';
+    var transform = (-1 * toMove * progression) + 'px';
+
+  })
 }
 // api
 // const productList = document.querySelector('#productList');
@@ -88,4 +95,26 @@ close.addEventListener('click', () => {
   postitTwo.classList.add('hidden');
 })
 
+// chapter appear
+
+let chapter = document.getElementById('chapter');
+let lineIn = document.getElementById('line__in');
+let chapterOne = document.getElementById('chapterOne');
+var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+var scrolled = (winScroll / height) * 100;
+
+window.addEventListener('wheel', () => {
+  // console.log(height);
+  // 3358
+  if (scrollY >= 300) {
+    chapter.style.opacity = '1';
+  }
+  else {
+    chapter.style.opacity = '0';
+  }
+  if (scrollY >= 1) {
+    lineIn.style.width = scrolled + "px";
+  }
+})
 
