@@ -91,14 +91,30 @@ close.addEventListener('click', () => {
 // chapter appear
 
 let chapter = document.getElementById('chapter');
+let lineIn = document.getElementById('line__in');
+let chapterOne = document.getElementById('chapterOne');
+var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+var scrolled = (winScroll / height) * 100;
 
 window.addEventListener('wheel', () => {
-  if (scrollY >= 1000) {
+  // console.log(height);
+  // 3358
+  if (scrollY >= 10) {
     chapter.style.opacity = '1';
-  } else {
+  }
+  else {
     chapter.style.opacity = '0';
   }
+  if (scrollY >= 1) {
+    lineIn.style.width = scrolled + "px";
+  }
+
+
 
 })
+
+
+
 
 

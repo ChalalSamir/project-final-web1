@@ -7,15 +7,25 @@ $page_title = 'TchernoByLegassov - Administrateur';
 ?>
 <main class="container body">
 
-<section class="section section--horizontal">
+<section class="section section--horizontal" id="chapterOne">
 <div class="chapter chapter--art2" id="chapter">
           <div class="line">
+            <div class="line line__in" id="line__in"></div>
             <div class="round">
               <p class="round--title">Un génie nucléaire</p>
             </div>
-            <div class="round"></div>
-            <div class="round is--in"></div>
-            <div class="round"></div>
+            <div class="round">
+            <p class="round--title">Tchernobyl</p>
+            </div>
+            <div class="round is--in">
+              <p class="round--title">Un rapport alarmant</p>
+            </div>
+            <div class="round">
+              <p class="round--title">Politique</p>
+          </div>
+          <div class="round">
+              <p class="round--title">La mort de Legasov</p>
+          </div>
           </div>
         </div>
       </div>
