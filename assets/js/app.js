@@ -118,3 +118,10 @@ window.addEventListener('wheel', () => {
   }
 })
 
+
+// custom cursor
+let cursor = document.getElementById('cursor');
+
+document.addEventListener('mousemove', e => {
+  cursor.setAttribute('style', 'top:' + (e.pageY + -5) + 'px; left:' + (e.pageX - 10) + 'px;');
+})

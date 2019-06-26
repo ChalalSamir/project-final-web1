@@ -8,6 +8,7 @@
     <script defer src="assets/js/async.js"></script>
     <script defer src="assets/js/app.js"></script>
     <script defer src="assets/js/articleOne.js"></script>
+    <script defer src="assets/js/articleThree.js"></script>
     <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="

@@ -3,22 +3,8 @@ require 'assets/config/bootstrap.php';
 include 'assets/inc/header.php';
 ?>
 <main class="container body">
-  
-  <div class="articleTwo">
-    <h1 class="articleTwo__title">Tchernobyl</h1>
-    <div class="titleContainer"></div>
-  </div>
 
-  <div class="chapter--articles">
-    <div class="line">
-        <div class="round">
-            <p class="round--title">Tchernobyl</p>
-        </div>
-        <div class="round"></div>
-        <div class="round is--in"></div>
-        <div class="round"></div>
-    </div>
-  </div>
+
   <div class="articleTwo__page2">
       <h1 class="page2__title">Tchernobyl</h1>
       <div class="page2__titleContainer"></div>
