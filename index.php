@@ -11,13 +11,13 @@ $page_title = 'TchernoByLegassov - Administrateur';
 <div class="chapter chapter--art2" id="chapter">
           <div class="line">
             <div class="line line__in" id="line__in"></div>
-            <div class="round">
-              <p class="round--title">Un génie nucléaire</p>
+            <div class="round is--in">
+            <p class="round--title" id="roundOne">Un génie nucléaire</p>
             </div>
             <div class="round">
             <p class="round--title">Tchernobyl</p>
             </div>
-            <div class="round is--in">
+            <div class="round">
               <p class="round--title">Un rapport alarmant</p>
             </div>
             <div class="round">
@@ -37,12 +37,14 @@ $page_title = 'TchernoByLegassov - Administrateur';
 					<h1 class="product__author"><span class="v">V</span>alerie Legasov</h1>
 					<h2 class="product__date">1936 - 1938</h2>
 					<h2 class="product__title" id="firstArticle">L'envers du décor</h2>
-					<div class="next"><a href="#two"><img src="assets/images/arrow.svg" alt="arrowNext"></a></div>
+					<div class="next"><a href="#one"><img src="assets/images/arrow.svg" alt="arrowNext"></a></div>
 				</div>
 				<div class="blocHome"></div>
-			</div>
-			<div class="products__product section--horizontal" id="two">
-				<div class="article--one">
+      </div>
+      
+      <!-- end homepage -->
+			<div class="products__product section--horizontal">
+				<div class="article--one" id="one">
 					<div class="triangle">
 						<img src="assets/images/triangle1.svg" alt="">
 						<p class="triangle--text">

@@ -408,7 +408,10 @@ body {
 }
 
 .is--in {
-  background: white;
+  background: #5E9E97;
+  box-shadow: #5E9E97 0 0 3px;
+  height: 15px;
+  width: 15px;
 }
 
 .title--chapter {

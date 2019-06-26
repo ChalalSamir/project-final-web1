@@ -57,6 +57,13 @@ function setTranslateX(element, progression) {
   // The transform factor is the size to move multiplied by the progression
   var transform = (-1 * toMove * progression) + 'px';
   element.style.transform = 'translateX(' + transform + ')';
+  let roundOne = document.getElementById('roundOne');
+
+  roundOne.addEventListener('click', () => {
+    element.style.transform = 'translateX(' + -100 + 'vw' + ')';
+    var transform = (-1 * toMove * progression) + 'px';
+
+  })
 }
 // api
 // const productList = document.querySelector('#productList');
@@ -100,7 +107,7 @@ var scrolled = (winScroll / height) * 100;
 window.addEventListener('wheel', () => {
   // console.log(height);
   // 3358
-  if (scrollY >= 10) {
+  if (scrollY >= 300) {
     chapter.style.opacity = '1';
   }
   else {
@@ -109,12 +116,5 @@ window.addEventListener('wheel', () => {
   if (scrollY >= 1) {
     lineIn.style.width = scrolled + "px";
   }
-
-
-
 })
-
-
-
-
 
