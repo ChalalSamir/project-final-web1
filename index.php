@@ -59,10 +59,12 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
 <div class="article--two">
       <div class="right">
-    <h2 id="date"></h2>
-    <p id="paragraphOne"></p>
-  </div>
-        
+        <h2 id="date"></h2>
+        <p id="paragraphOne"></p>
+      </div>
+    </div>
+
+
 <!-- 2 -->
 <div class="article--two bg2">
       <div class="postit" id="postit">
@@ -74,7 +76,19 @@ $page_title = 'TchernoByLegassov - Administrateur';
          <p id="paragraphTwo" >
          </p>
       </div>
+        <div class="chapter chapter--art2">
+          <div class="line">
+            <div class="round">
+              <p class="round--title">Un génie nucléaire</p>
+            </div>
+            <div class="round"></div>
+            <div class="round is--in"></div>
+            <div class="round"></div>
+          </div>
+        </div>
+      </div>
 </div>
+
 
 <!-- 3 -->
 <section class="section section--horizontal">
@@ -89,30 +103,34 @@ $page_title = 'TchernoByLegassov - Administrateur';
       </div>
 
 			<div class="products__product2 section--horizontal">
-        <div class="articleTwo">
+        <div class="article_Two">
         <h1 class="articleTwo__title">Tchernobyl</h1>
         <div class="titleContainer"></div>
         </div>
 			</div>
 
 		</div>
-	</div>
+	</div> 
 </section>
 
 
+
 <div class="articleTwo__page2">
-      <h1 class="page2__title">Tchernobyl</h1>
+
       <div class="page2__titleContainer"></div>
         <div class="typrewritter">
-        <p class="css-typing">
-        Le 26 avril 1986 à 1h23 du matin,
-        </p>
+        <p class="css-typing">Le 26 avril 1986 à 1h23 du matin,</p>
         </div>
-  </div>
+</div>
 
 <div class="articleTwo__page3">
 
-    <div class="page3__video"></div>
+    <div class="page3__video">
+      <video autoplay  class="article2__video1">
+        <source src="assets/videos/article2-video1.mp4" type="video/mp4">
+
+      </video>
+    </div>
 
     <div class="page3__text">
         
@@ -142,21 +160,149 @@ $page_title = 'TchernoByLegassov - Administrateur';
   </div>
 
   <div class="page__article4">
+
     <img src="assets/images/article2-p4.png" alt="" class="article4__img">
+
     <div class="article4__text">
       <p> 12 heures après l’explosion de la  
           centrale,  M. Legasov a été nommé à la commission   
           spéciale du gouvernement </p>
 
-      <p>Les 2 premiers jours aucune information n’est communiquée  au gouvernement de l’URSS, alors paralysé dans ses décisions
-</p>
+      <p>Les 2 premiers jours aucune information n’est communiquée  
+      au gouvernement de l’URSS, alors paralysé dans ses décisions</p>
+
     </div>
+
   </div>
   
 </div>
 
+<section class="section section--horizontal">
+	<div class="section__inner">
+		<div class="products" id="productList">
+    <div class="chemin8"></div>
+			<!-- home page -->
+			<div class="products__product3 section--horizontal">
+        <div class="typrewritter--1">
+          <p class="css-typing--1">
+          Pourtant, le taux de radioactivité détecté dans la ville de Pripiat
+          est préocupant
+          </p>
+        </div>
+
+       
+      </div>
+
+			<div class="products__product3 section--horizontal">
+        <div class="articleTwo__page5">
+          <video  auto class="article2__video1">
+            <source src="assets/videos/article2-video1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+		</div>
+	</div> 
+</section>
+
+<div class="articleTwo__page6">
+  <div class="chemin9"></div>
+  <div class="chemin10"></div>
+  <div class="chemin11"></div>
+  <div class="chemin12"></div>
+    <div class="page6Container">
+
+    <img src="assets/images/page6__image.png" alt="" class="page6__image">
+
+    <div class="page6__text">
+      <p>Les autorités, pour ne pas paniquer les foules, taît la gravité
+        de l’explosion</p>
+
+      <p>30h après l’accident, 135 000 personnes menacées par les radiations 
+        quittent la zone interdite en bus. Ils ne le savent pas encore mais 
+        ils ne pourront jamais y revenir. </p>
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+<div class="articleTwo__page7">
+  <div class="chemin13"></div>
+  <div class="chemin14"></div>
+
+  <p class="page7__text">
+  “J’ai su que la ville avait été évacuée mais je ne trouvais pas la force de leur dire
+   la vérité. Si nous leur avions dit qu’ils partaient  définitivement, ils auraient
+    mis trop de temps, à préparer leurs affaires. Alors nous leur avons fait croire 
+    que c’était seulement temporaire.”
+  </p>
+
+</div>
 
 
-</main>
+
+<section class="section section--horizontal">
+	<div class="section__inner">
+		<div class="products" id="productList">
+      
+			<div class="products__product3 section--horizontal">
+
+        <div class="articleTwo__page8">
+          <div class="chemin15"></div>
+            <p>
+            Legassov se voit alors investi la tâche de déterminer les causes de l’explosion 
+            et part sur le terrain pour constater l’ampleur de la catastrophe.
+            </p>
+          </div>
+       
+      </div>
+
+
+
+    <section class="articleThree">
+        <div class="products__product5 section--horizontal">
+              <div class="first_title">
+                    <h1>Un rapport <br> <span>alarmant</span></h1>
+                    <div></div>
+                </div>
+              </div>
+          </div> 
+    </section>
+
+    <section class="second">
+      <div class="second__image">
+        <div class="second__text">
+          <p><span>Legasov,</span>  grâce à la présence  de graphite sur le toît de la centrale, confirme l’explosion du coeur du réacteur</p>
+          <p>Le taux de radioactivité prélevé est alors très préocupant</p>
+        </div>
+          <img src="assets/images/image1.png" alt="image"/>
+      </div>
+    </section>
+
+    <section class="three">
+      <div class="three_text">
+        <p>Une question se pose ensuite pour le scientifique,</p>
+        <p class="three_text--second">Comment l’accident nucléaire - a - t-il pu se produire ?</p>
+        <div></div>
+      </div>
+    </section>
+
+      
+    <section class="foor">
+      <div class="foor_circle">
+      <p class="foor_circle_number">1</p>
+      </div>
+      <h1>Personel incompétents</h1>
+      <div class="foor__image">
+      <img src="assets/images/image 2.png" alt="image"/>
+      <div class="foor_text">
+      <p>Un test de sécurité prévu sur le réacteur n°4 de la centrale  le 25 avril, a été <span class="span_font">reporté 10h plus tard</span>. La puissance thermique du réacteur a été réduite de <span class="span_font">1 000</span> à <span class="span_font">200 MW</span>.</p>
+      <p><span class="span_white">Anatoli Diatlov</span> et son équipe ont alors commis une série d’erreurs lors du déroulé du test en violant les procédures de sérurité du réacteur.</p>
+      </div>
+      </div>
+    </section>
+
+</section>
 
 <?php include 'assets/inc/footer.php'; ?>
