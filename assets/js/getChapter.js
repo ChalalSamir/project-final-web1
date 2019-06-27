@@ -8,11 +8,11 @@ let getChapter = () => {
   asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
     // Boucle sur la collection
     // Ajouter une balise dans le DOM
-    roundOne.innerHTML = `${data.articles[2].title}`;
-    roundTwo.innerHTML = `${data.articles[1].title}`;
-    roundThree.innerHTML = `${data.articles[2].title}`;
-    roundFour.innerHTML = `${data.articles[0].title}`;
-    // roundFive.innerHTML = `${data.articles[4].title}`;
+    roundOne.innerHTML = `${data.articles[4].title}`;
+    roundTwo.innerHTML = `${data.articles[2].title}`;
+    roundThree.innerHTML = `${data.articles[3].title}`;
+    roundFour.innerHTML = `${data.articles[1].title}`;
+    roundFive.innerHTML = `${data.articles[0].title}`;
 
 
   }).catch(err => console.error(err))
