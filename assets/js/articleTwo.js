@@ -6,6 +6,10 @@ let articleTwo = (id) => {
   let paragraphThreeArticleTwo = document.getElementById('paragraphThreeArticleTwo');
   let paragraphFourArticleTwo = document.getElementById('paragraphFourArticleTwo');
   let paragraphFiveArticleTwo = document.getElementById('paragraphFiveArticleTwo');
+  let paragraphSixArticleTwo = document.getElementById('paragraphSixArticleTwo');
+  let paragraphSevenArticleTwo = document.getElementById('paragraphSevenArticleTwo');
+  let paragraphEightArticleTwo = document.getElementById('paragraphEightArticleTwo');
+  let paragraphNineArticleTwo = document.getElementById('paragraphNineArticleTwo');
   asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
     // Boucle sur la collection
     // Ajouter une balise dans le DOM
@@ -16,6 +20,10 @@ let articleTwo = (id) => {
     paragraphThreeArticleTwo.innerHTML = `${data.articles[id].paragraph_three}`;
     paragraphFourArticleTwo.innerHTML = `${data.articles[id].paragraph_four}`;
     paragraphFiveArticleTwo.innerHTML = `${data.articles[id].paragraph_five}`;
+    paragraphSixArticleTwo.innerHTML = `${data.articles[id].paragraph_six}`;
+    paragraphSevenArticleTwo.innerHTML = `${data.articles[id].paragraph_seven}`;
+    paragraphEightArticleTwo.innerHTML = `${data.articles[id].paragraph_eight}`;
+    paragraphNineArticleTwo.innerHTML = `${data.articles[id].paragraph_nine}`;
 
   }).catch(err => console.error(err))
 }

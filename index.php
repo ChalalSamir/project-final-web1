@@ -82,6 +82,8 @@ $page_title = 'TchernoByLegassov - Administrateur';
 </div>
 
 <!-- FIN ARTCILE 1 -->
+
+
 <!--  DEBUT ARTCILE 2 -->
 
 <!-- 3 -->
@@ -173,9 +175,7 @@ $page_title = 'TchernoByLegassov - Administrateur';
 			<!-- home page -->
 			<div class="products__product3 section--horizontal">
         <div class="typrewritter--1">
-          <p class="css-typing--1" id="paragraphFiveArticleTwo">
-         
-          </p>
+          <p class="css-typing--1" id="paragraphFiveArticleTwo"></p>
         </div>
 
        
@@ -203,12 +203,9 @@ $page_title = 'TchernoByLegassov - Administrateur';
     <img src="assets/images/page6__image.png" alt="" class="page6__image">
 
     <div class="page6__text">
-      <p>Les autorités, pour ne pas paniquer les foules, taît la gravité
-        de l’explosion</p>
+      <p id="paragraphSixArticleTwo"></p>
 
-      <p>30h après l’accident, 135 000 personnes menacées par les radiations 
-        quittent la zone interdite en bus. Ils ne le savent pas encore mais 
-        ils ne pourront jamais y revenir. </p>
+      <p id="paragraphSevenArticleTwo"></p>
     </div>
     
     </div>
@@ -219,11 +216,8 @@ $page_title = 'TchernoByLegassov - Administrateur';
   <div class="chemin13"></div>
   <div class="chemin14"></div>
 
-  <p class="page7__text">
-  “J’ai su que la ville avait été évacuée mais je ne trouvais pas la force de leur dire
-   la vérité. Si nous leur avions dit qu’ils partaient  définitivement, ils auraient
-    mis trop de temps, à préparer leurs affaires. Alors nous leur avons fait croire 
-    que c’était seulement temporaire.”
+  <p class="page7__text" id="paragraphEightArticleTwo">
+
   </p>
 
 </div>
@@ -238,14 +232,12 @@ $page_title = 'TchernoByLegassov - Administrateur';
 
         <div class="articleTwo__page8">
           <div class="chemin15"></div>
-            <p>
-            Legassov se voit alors investi la tâche de déterminer les causes de l’explosion 
-            et part sur le terrain pour constater l’ampleur de la catastrophe.
+            <p id="paragraphNineArticleTwo">
             </p>
           </div>
        
       </div>
-
+<!-- FIN ARTICLE 2 -->
 
 
     <section class="articleThree">
