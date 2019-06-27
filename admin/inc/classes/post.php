@@ -66,10 +66,17 @@
         public function update(PDO $con, $id) {
 			$title = $_POST['title'];
 			$content = $_POST['content'];
-			if (empty($titre) and empty($content)) {
-                echo 'champs incomplets';
-
-			} else {
+			$date_article = $_POST['date_article'];
+			$paragraph_one = $_POST['paragraph_one'];
+			$paragraph_two = $_POST['paragraph_two'];
+			$paragraph_three = $_POST['paragraph_three'];
+			$paragraph_four = $_POST['paragraph_four'];
+			$paragraph_five = $_POST['paragraph_five'];
+			$paragraph_six = $_POST['paragraph_six'];
+			$paragraph_seven = $_POST['paragraph_seven'];
+			$paragraph_eight = $_POST['paragraph_eight'];
+			$paragraph_nine = $_POST['paragraph_nine'];
+			$paragraph_ten = $_POST['paragraph_ten'];
 
 				$req = $con->prepare('
 					UPDATE articles
@@ -103,7 +110,7 @@
 				$req->execute();
 
 				echo 'L\'article a bien été modifé';
-			}
+			
     }
 
     public function getOne(PDO $con, $id)  {

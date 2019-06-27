@@ -46,27 +46,27 @@ if (isset($_POST['send'])) {
           <input class="form-control" type="text" name="title" value="<?= $currentPost['title']?>">
           <label class="createLabel" for="content">Contenu 1</label>
           <textarea class="form-control" name="content" id="content" cols="60" rows="10"><?= $currentPost['content']?></textarea>
-          <label class="createLabel" for="content">Date</label>
-          <textarea class="form-control" name="date" id="content" cols="60" rows="10"><?= $currentPost['date_article']?></textarea>
-          <label class="createLabel" for="content">Paragraphe 1</label>
+          <label class="createLabel" for="date_article">Date</label>
+          <textarea class="form-control" name="date_article" id="content" cols="60" rows="10"><?= $currentPost['date_article']?></textarea>
+          <label class="createLabel" for="paragraph_one">Paragraphe 1</label>
           <textarea class="form-control" name="paragraph_one" id="content" cols="60" rows="10"><?= $currentPost['paragraph_one']?></textarea>
-          <label class="createLabel" for="content">Paragraphe 2</label>
+          <label class="createLabel" for="paragraph_two">Paragraphe 2</label>
           <textarea class="form-control" name="paragraph_two" id="content" cols="60" rows="10"><?= $currentPost['paragraph_two']?></textarea>
-          <label class="createLabel" for="content">Paragraphe 3</label>
+          <label class="createLabel" for="paragraph_three">Paragraphe 3</label>
           <textarea class="form-control" name="paragraph_three" id="content" cols="60" rows="10"><?= $currentPost['paragraph_three']?></textarea>
-          <label class="createLabel" for="content">Paragraphe 4</label>
+          <label class="createLabel" for="paragraph_four">Paragraphe 4</label>
           <textarea class="form-control" name="paragraph_four" id="content" cols="60" rows="10"><?= $currentPost['paragraph_four']?></textarea>
-          <label class="createLabel" for="content">Paragraphe 5</label>
+          <label class="createLabel" for="paragraph_five">Paragraphe 5</label>
           <textarea class="form-control" name="paragraph_five" id="content" cols="60" rows="10"><?= $currentPost['paragraph_five']?></textarea>
-          <label class="createLabel" for="content">Paragraphe 6</label>
+          <label class="createLabel" for="paragraph_six">Paragraphe 6</label>
           <textarea class="form-control" name="paragraph_six" id="content" cols="60" rows="10"><?= $currentPost['paragraph_six']?></textarea>
-          <label class="createLabel" for="content">Paragraphe 7</label>
+          <label class="createLabel" for="paragraph_seven">Paragraphe 7</label>
           <textarea class="form-control" name="paragraph_seven" id="content" cols="60" rows="10"><?= $currentPost['paragraph_seven']?></textarea>
-          <label class="createLabel" for="content">Paragraphe 8</label>
+          <label class="createLabel" for="paragraph_eight">Paragraphe 8</label>
           <textarea class="form-control" name="paragraph_eight" id="content" cols="60" rows="10"><?= $currentPost['paragraph_eight']?></textarea>
-          <label class="createLabel" for="content">Paragraphe 9</label>
+          <label class="createLabel" for="paragraph_nine">Paragraphe 9</label>
           <textarea class="form-control" name="paragraph_nine" id="content" cols="60" rows="10"><?= $currentPost['paragraph_nine']?></textarea>
-          <label class="createLabel" for="content">Paragraphe 10</label>
+          <label class="createLabel" for="paragraph_ten">Paragraphe 10</label>
           <textarea class="form-control" name="paragraph_ten" id="content" cols="60" rows="10"><?= $currentPost['paragraph_ten']?></textarea>
           <input class="btn btn-success" type="submit" name="send">
           <a href="addPost.php"><div class="btn btn-danger">Retour</div></a>
