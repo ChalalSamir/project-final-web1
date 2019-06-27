@@ -7,9 +7,11 @@ let articleOne = (id) => {
   asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
     // Boucle sur la collection
     // Ajouter une balise dans le DOM
-    date.innerHTML += `${data.articles[id].date_article}`;
-    paragraphOne.innerHTML += `${data.articles[id].paragraph_one}`;
-    paragraphTwo.innerHTML += `${data.articles[id].paragraph_two}`;
+    date.innerHTML = `${data.articles[id].date_article}`;
+    paragraphOne.innerHTML = `${data.articles[id].paragraph_one}`;
+    paragraphTwo.innerHTML = `${data.articles[id].paragraph_two}`;
+    console.log(data.articles[data.articles[id].id]);
+
   }).catch(err => console.error(err))
 };
 
@@ -31,7 +33,9 @@ notes.addEventListener('click', () => {
       notesText.innerHTML += `${data.articles[id].paragraph_three}`;
     }).catch(err => console.error(err))
   }
+
 })
-articleOne(3);
+articleOne(4);
+
 
 

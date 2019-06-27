@@ -27,4 +27,4 @@ let articleTwo = (id) => {
 
   }).catch(err => console.error(err))
 }
-articleTwo(1);
+articleTwo(2);
