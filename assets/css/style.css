@@ -295,8 +295,8 @@ body {
   animation: postit 1s infinite alternate;
   box-shadow: rgba(70, 26, 39, 0.845) 0 0 3px;
   border-radius: 10px;
-
 }
+
 .postit__in {
   width: 45px;
   height: 100%;
