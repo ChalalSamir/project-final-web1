@@ -3,25 +3,24 @@ require 'assets/config/bootstrap.php';
 include 'assets/inc/header.php';
 ?>
 <main class="container body">
-
 <section class="section section--horizontal" id="chapterOne">
 <div class="chapter chapter--art2" id="chapter">
           <div class="line">
             <div class="line line__in" id="line__in"></div>
             <div class="round is--in">
-            <p class="round--title" id="roundOne">Un génie nucléaire</p>
+            <p class="round--title" id="roundOne"></p>
             </div>
             <div class="round">
-            <p class="round--title">Tchernobyl</p>
+            <p class="round--title" id="roundTwo"></p>
             </div>
             <div class="round">
-              <p class="round--title">Un rapport alarmant</p>
+              <p class="round--title" id="roundThree"></p>
             </div>
             <div class="round">
-              <p class="round--title">Politique</p>
+              <p class="round--title" id="roundFour"></p>
           </div>
           <div class="round">
-              <p class="round--title">La mort de Legasov</p>
+              <p class="round--title" id="roundFive"></p>
           </div>
           </div>
         </div>
@@ -29,7 +28,6 @@ include 'assets/inc/header.php';
 	<div class="section__inner">
 		<div class="products" id="productList">
       <!-- home page -->
-      
 			<div class="products__product section--horizontal">
 				<div class="home__text">
           <h1 class="product__author"><span class="v">V</span>alerie Legasov</h1>
