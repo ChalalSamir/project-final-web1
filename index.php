@@ -1,7 +1,6 @@
 <?php
 require 'assets/config/bootstrap.php';
 include 'assets/inc/header.php';
-$page_title = 'TchernoByLegassov - Administrateur';
 ?>
 <main class="container body">
 
