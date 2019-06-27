@@ -43,3 +43,8 @@ $page_title = 'TchernoByLegassov - Administrateur';
         </div>
         </div>
     </section>
+
+    <video   class="article2__video1">
+        <source src="assets/videos/article2-video2.mp4" type="video/mp4">
+
+      </video>

@@ -838,7 +838,7 @@ transform: translateY(100%);
 }
 
 .article4__img {
-  top: -76px;
+  top: 36px;
   position: absolute;
   left: 218px;
   width: 553px;
@@ -853,7 +853,7 @@ transform: translateY(100%);
   background: #471B29;
   position: absolute;
   left: 771px;
-  top: -76px;
+  top: 36px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

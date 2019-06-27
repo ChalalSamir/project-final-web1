@@ -119,7 +119,7 @@ include 'assets/inc/header.php';
 <div class="articleTwo__page3">
 
     <div class="page3__video">
-      <video autoplay  class="article2__video1">
+      <video   class="article2__video1">
         <source src="assets/videos/article2-video1.mp4" type="video/mp4">
 
       </video>
@@ -148,7 +148,6 @@ include 'assets/inc/header.php';
     <div class="chemin4"></div>
     <div class="chemin5"></div>
     <div class="chemin6"></div>
-    <div class="chemin7"></div>
 
   </div>
 
@@ -181,8 +180,8 @@ include 'assets/inc/header.php';
       </div>
 
 			<div class="products__product3 section--horizontal">
-        <div class="articleTwo__page5">
-          <video  auto class="article2__video1">
+        <div class="page3__video">
+          <video   class="article2__video1">
             <source src="assets/videos/article2-video1.mp4" type="video/mp4">
           </video>
         </div>
