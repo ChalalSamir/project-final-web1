@@ -8,19 +8,19 @@ include 'assets/inc/header.php';
           <div class="line">
             <div class="line line__in" id="line__in"></div>
             <div class="round is--in">
-            <p class="round--title" id="roundOne"></p>
+            <a href="#one"><p class="round--title" id="roundOne"></p></a>
             </div>
             <div class="round">
-            <p class="round--title" id="roundTwo"></p>
+            <a href="#two"><p class="round--title" id="roundTwo"></p></a>
             </div>
             <div class="round">
-              <p class="round--title" id="roundThree"></p>
+             <a href="#three"> <p class="round--title" id="roundThree"></p></a>
             </div>
             <div class="round">
-              <p class="round--title" id="roundFour"></p>
+              <a href="#four"><p class="round--title" id="roundFour"></p></a>
           </div>
           <div class="round">
-              <p class="round--title" id="roundFive"></p>
+              <a href="#five"><p class="round--title" id="roundFive"></p></a>
           </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ include 'assets/inc/header.php';
 
 <!-- 3 -->
 <section class="section section--horizontal">
-	<div class="section__inner">
+	<div class="section__inner" id="two">
 		<div class="products" id="productList">
 			<!-- home page -->
 			<div class="products__product1 section--horizontal">
@@ -117,7 +117,7 @@ include 'assets/inc/header.php';
 <div class="articleTwo__page3">
 
     <div class="page3__video">
-      <video   class="article2__video1">
+      <video class="article2__video1">
         <source src="assets/videos/article2-video1.mp4" type="video/mp4">
 
       </video>
@@ -179,9 +179,10 @@ include 'assets/inc/header.php';
 
 			<div class="products__product3 section--horizontal">
         <div class="page3__video">
-          <video   class="article2__video1">
-            <source src="assets/videos/article2-video1.mp4" type="video/mp4">
-          </video>
+        <video controls width="950">
+
+<source src="./assets/videos/article2-video2.mp4" type="video/mp4">
+</video>
         </div>
       </div>
 
@@ -236,7 +237,7 @@ include 'assets/inc/header.php';
 <!-- FIN ARTICLE 2 -->
 
 
-    <section class="articleThree">
+    <section class="articleThree" id="three">
         <div class="products__product5 section--horizontal">
               <div class="first_title">
                     <h1 id="titleArticleThree"></h1>
