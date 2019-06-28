@@ -213,60 +213,66 @@ include 'assets/inc/header.php';
 </div>
 
 
+
 <section class="section section--horizontal">
 	<div class="section__inner">
 		<div class="products" id="productList">
-
+      
 			<div class="products__product3 section--horizontal">
+
         <div class="articleTwo__page8">
           <div class="chemin chemin15"></div>
-          <p id="paragraphNineArticleTwo"></p>  
-        </div>    
+            <p id="paragraphNineArticleTwo">
+            </p>
+          </div>
+       
       </div>
 <!-- FIN ARTICLE 2 -->
 
+
+    <section class="articleThree" id="three">
       <div class="products__product5 section--horizontal">
         <div class="first_title">
           <h1 id="titleArticleThree"></h1>
           <div></div>
         </div>
-      </div>
+      </div> 
+    </section>
 
-    </div>
-  </div>     
+
 </section>
 
-  <section class="second">
-    <div class="second__image">
-      <div class="second__text">
-        <p id="contentArticleThree"></p>
-        <p id="dateArticleThree"></p>
+    <section class="second">
+      <div class="second__image">
+        <div class="second__text">
+          <p id="contentArticleThree"></p>
+          <p id="dateArticleThree"></p>
+        </div>
+          <img src="assets/images/image1.png" alt="image"/>
       </div>
-        <img src="assets/images/image1.png" alt="image"/>
-    </div>
-  </section>
+    </section>
 
-  <section class="three">
-    <div class="three_text">
-      <p id="paragraphOneArticleThree"></p>
-      <p id="paragraphTwoArticleThree" class="three_text--second"></p>
-      <div></div>
-    </div>
-  </section>
-
-  <section class="foor">
-    <div class="foor_circle">
-    <p class="foor_circle_number">1</p>
-    </div>
-    <h1 id="paragraphThreeArticleThree"></h1>
-    <div class="foor__image">
-    <img src="assets/images/image 2.png" alt="image" />
-    <div class="foor_text">
-    <p id="paragraphFourArticleThree"></p>
-    <p id="paragraphFiveArticleThree"></p>
-    </div>
-    </div>
-  </section>
+    <section class="three">
+      <div class="three_text">
+        <p id="paragraphOneArticleThree"></p>
+        <p id="paragraphTwoArticleThree" class="three_text--second"></p>
+        <div></div>
+      </div>
+    </section>
+    
+    <section class="foor">
+      <div class="foor_circle">
+      <p class="foor_circle_number">1</p>
+      </div>
+      <h1 id="paragraphThreeArticleThree"></h1>
+      <div class="foor__image">
+      <img src="assets/images/image 2.png" alt="image" />
+      <div class="foor_text">
+      <p id="paragraphFourArticleThree"></p>
+      <p id="paragraphFiveArticleThree"></p>
+      </div>
+      </div>
+    </section>
 
   <section class="section section--horizontal">
       <div class="section__inner">
@@ -278,22 +284,27 @@ include 'assets/inc/header.php';
               <h1 class="five_circle_number">2</h1>
             </div>
 
-            <p class="five_title" id="paragraphSixArticleThree"></p>
+            <p class="five_title">Materiel défectueux</p>
 
-            <h2 class="five__subtitle" id="paragraphSevenArticleThree"></h2>
+            <h2 class="five__subtitle">Réacteur RBMK</h2>
 
             <ul class="five__containt">
-              <li id="paragraphEightArticleThree"></li>
-              <li id="paragraphNineArticleThree"></li>
-              <li id="paragraphTenArticleThree"></li>
-              <li id="paragraphElevenArticleThree"></li>
-              <li id="paragraphTwelveArticleThree"></li>
+              <li>Le cœur des reacteurs rbmk est instable en dessous de 700 MWth.</li>
+              <li>En clair, à faible puissance  le réacteur devient difficilement contrôlable. </li>
+              <li>L’explosion de Tchernobyl s’est produite, précisément, lors d’un essai à faible
+                 puissance c’est-à-dire dans un contexte d’instabilité de ce réacteur. </li>
+              <li>Les réacteurs autres que RBMK toute réaction nucléaire tendant à 
+                l’emballement est, par conception du réacteur, automatiquement ralentie.</li>
+              <li>Les ingénieurs russes connaissaient cette instabilité</li>
             </ul>
+
+
+     
         </div>
 
         <div class="products__product6 section--horizontal">
           <div class="first_div"> 
-            <h1 id="titleArticleFour"></h1>
+            <h1>Politique</h1>
             <div></div>
           </div>
         </div>
@@ -304,7 +315,9 @@ include 'assets/inc/header.php';
 
   <section class="second">
     <div class="second_div">
-    <p id="contentArticleFour"></p>
+    <p><span class="span_big">Légassov,</span> reproche a l’union soviétique de produire
+    des réacteurs qui ne respectent pas <span class="span_font">les normes de sécurité</span>,
+    malgré l’alerte de nombreux scientifiques.</p>
     </div>
   </section>
 
@@ -316,41 +329,54 @@ include 'assets/inc/header.php';
         <div class="products__product7 section--horizontal">
           <section class="three">
             <div class="three_div">
-            <p class="three_text-first" id="dateArticleFour"></p>
+            <p class="three_text-first">Cette négligence s’explique par
+            le climat de guerre froide qui règnait
+            à l’époque de la construction de la centrale.</p>
 
-            <p class="three_text-second" id="paragraphOneArticleFour"></p>
+            <p class="three_text-second">La course à la technologie entre 
+            l’URSS et les Etats unis a incitée
+            le bloc de l’est à précipiter la construction
+            de la centrale en négligeant certaines normes de
+            sécurité,</p>
 
-            <p class="three_text-three" id="paragraphTwoArticleFour"></p>
+            <p class="three_text-three">pour produire un maximum d’énergie 
+            le plus rapidement possible avec des matériaux moins couteux
+            tel que le graphite</p>
             </div>
           </section> 
         </div>
 
         <div class="products__product6 section--horizontal">
           <img class="section4__image" src="assets/images/rectangle3.png" alt="">
-          <p class="section4__text" id="paragraphThreeArticleFour">
-          
+          <p class="section4__text">
+          Légasov a exprimé sa désillusion quant à la gestion de la 
+          catastrophe par les autorités russes.
           </p>
         </div>
 
         <div class="products__product6 section--horizontal">
           <img class="section5__image" src="assets/images/rectangle4.png" alt="">
-          <p class="section5__text" id="paragraphFourArticleFour">
-          
+          <p class="section5__text">
+          “Des robots biologiques”
           </p>
           <img src="assets/images/article4--image1.png" alt="" class="section5__image1">
-          <p class="section5__text1" id="paragraphFiveArticleFour">
+          <p class="section5__text1">Afin de ne pas divulguer le réel taux
+             de radioactivité  aux yeux de la scène internationale
           </p>
         </div>
+
         <div class="products__product6 section--horizontal">
           <img class="section6__image" src="assets/images/rectangle3.png" alt="">
-          <p class="section6__text" id="paragraphSixArticleFour">
-          
+          <p class="section6__text">
+          l’Union soviétique préfère sacrifier des hommes.
           </p>
           <img src="assets/images/article4--image2.png" alt="" class="section6__image1">
           <img src="assets/images/article4--image3.png" alt="" class="section6__image2">
           <div class="textContaint">
-            <p class="textContaint__text" id="paragraphSevenArticleFour">
-             
+            <p class="textContaint__text">
+              Ce sont donc les <strong>“liquidateurs”</strong>. composés d’hommes volontaires
+              pour la plupart qui s’exposeront mortellement aux radiations
+              afin de décontaminer la région de tchernobyl.
             </p>
           </div>
           
@@ -363,7 +389,49 @@ include 'assets/inc/header.php';
   </section> 
 
 
+  <section class="section7">
+
+    <div class="itemsContaint">
+    <div class="section7__items">
+      <h1 class="items__title1">Ukraine</h1>
+      <p class="numbers1">360.000</p>
+    </div>
+    <div class="section7__items">
+    <h1 class="items__title2">Autres</h1>
+      <p class="numbers2">90.000</p>
+    </div>
+    <div class="section7__items">
+    <h1 class="items__titl3">Liquidateurs</h1>
+      <p class="total">Total</p>
+      <p class="numbers3">830.000</p>
+    </div>
+    <div class="section7__items">
+    <h1 class="items__title4">Russie</h1>
+      <p class="numbers4">250.000</p>
+    </div>
+    <div class="section7__items">
+    <h1 class="items__title5">Biélorussie</h1>
+      <p class="numbers5">130.O00</p>
+    </div>
+    </div>
 
 
+    <section class="section7__page2">
+      <div class="page2__containt">
+        <h1 class="page2__title1">KGB</h1>
+        <div class="page2_text1">
+          <p id="paragraphEightArticleFour"></p>
+        </div>
+        <div class="page2_text2"></div>
+        <div class="page2_text3"></div>
+      </div>
+      <div class="page2__images">
+        <img src="assets/images/section7--image1.png" alt="" class="page2__image1">
+        <img src="assets/images/section7--image2.png" alt="" class="page2__image2">
+      </div>
+    </section>
+  </section>
+
+  
 
 <?php include 'assets/inc/footer.php'; ?>
