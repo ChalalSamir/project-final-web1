@@ -2045,7 +2045,6 @@ font-weight: 200;
 
 
 .section7__page2 {
-  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -2053,6 +2052,7 @@ font-weight: 200;
 
 .page2__containt {
   margin-right: 30px;
+  position: relative;
 }
 
 .page2__title1 {
@@ -2072,8 +2072,22 @@ font-weight: 200;
   height: 273px;
   background-color: rgba(0, 0, 0, 0.76);
   margin-top: 10px;
+}
 
+.page2_text2 {
+  width: 331px;
+  height: 391px;
+  background-color: rgba(0, 0, 0, 0.76);
+  margin-top: 30px;
+}
 
+.page2_text3 {
+  width: 810px;
+  height: 213px;
+  background-color: rgba(0, 0, 0, 0.76);
+  margin-top: 30px;
+  position: absolute;
+  top: 871px;
 }
 
 .page2__image1 {
@@ -2088,7 +2102,16 @@ margin-top: 30px;
 }
 
 
-git
+
+
+
+
+
+
+
+
+
+/* sons */
 .sound {
   position: fixed;
   top:5px;

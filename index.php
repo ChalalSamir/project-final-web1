@@ -294,13 +294,11 @@ include 'assets/inc/header.php';
             <h2 class="five__subtitle">Réacteur RBMK</h2>
 
             <ul class="five__containt">
-              <li>Le cœur des reacteurs rbmk est instable en dessous de 700 MWth.</li>
-              <li>En clair, à faible puissance  le réacteur devient difficilement contrôlable. </li>
-              <li>L’explosion de Tchernobyl s’est produite, précisément, lors d’un essai à faible
-                 puissance c’est-à-dire dans un contexte d’instabilité de ce réacteur. </li>
-              <li>Les réacteurs autres que RBMK toute réaction nucléaire tendant à 
-                l’emballement est, par conception du réacteur, automatiquement ralentie.</li>
-              <li>Les ingénieurs russes connaissaient cette instabilité</li>
+              <li id="paragraphEightArticleThree"></li>
+              <li id="paragraphNineArticleThree"></li>
+              <li id="paragraphTenArticleThree"></li>
+              <li id="paragraphElevenArticleThree"></li>
+              <li id="paragraphTwelveArticleThree"></li>
             </ul>
 
 
@@ -372,26 +370,13 @@ include 'assets/inc/header.php';
 
         <div class="products__product6 section--horizontal">
           <img class="section6__image" src="assets/images/rectangle3.png" alt="">
-<<<<<<< HEAD
-          <p class="section6__text">
-          l’Union soviétique préfère sacrifier des hommes.
-=======
           <p class="section6__text" id="paragraphSixArticleFour">
->>>>>>> c3a26492f3dda60ffaf288ff17a12d731beb2198
           </p>
 
           <img src="assets/images/article4--image2.png" alt="" class="section6__image1">
           <img src="assets/images/article4--image3.png" alt="" class="section6__image2">
           <div class="textContaint">
-<<<<<<< HEAD
-            <p class="textContaint__text">
-              Ce sont donc les <strong>“liquidateurs”</strong>. composés d’hommes volontaires
-              pour la plupart qui s’exposeront mortellement aux radiations
-              afin de décontaminer la région de tchernobyl.
-            </p>
-=======
             <p class="textContaint__text" id="paragraphSevenArticleFour"></p>
->>>>>>> c3a26492f3dda60ffaf288ff17a12d731beb2198
           </div>
         </div>
 
