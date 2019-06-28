@@ -6,6 +6,11 @@ include 'assets/inc/header.php';
 <main class="container body">
 <section class="section section--horizontal" id="chapterOne">
     <div class="cursor" id="cursor"></div>
+    <div class="sound" id="sound">
+      <div class="sound__stop">
+          <span><img src="assets/images/sound.svg" alt="soundMute"></span>
+      </div>
+    </div>
       <div class="chapter chapter--art2" id="chapter">
           <div class="line">
             <!-- <div class="line line__in" id="line__in"></div> -->
@@ -367,22 +372,34 @@ include 'assets/inc/header.php';
 
         <div class="products__product6 section--horizontal">
           <img class="section6__image" src="assets/images/rectangle3.png" alt="">
+<<<<<<< HEAD
           <p class="section6__text">
           l’Union soviétique préfère sacrifier des hommes.
+=======
+          <p class="section6__text" id="paragraphSixArticleFour">
+>>>>>>> c3a26492f3dda60ffaf288ff17a12d731beb2198
           </p>
+
           <img src="assets/images/article4--image2.png" alt="" class="section6__image1">
           <img src="assets/images/article4--image3.png" alt="" class="section6__image2">
           <div class="textContaint">
+<<<<<<< HEAD
             <p class="textContaint__text">
               Ce sont donc les <strong>“liquidateurs”</strong>. composés d’hommes volontaires
               pour la plupart qui s’exposeront mortellement aux radiations
               afin de décontaminer la région de tchernobyl.
             </p>
+=======
+            <p class="textContaint__text" id="paragraphSevenArticleFour"></p>
+>>>>>>> c3a26492f3dda60ffaf288ff17a12d731beb2198
           </div>
-          
         </div>
 
-
+        <div class="products__product6 section--horizontal">
+          <div class="product--video">
+          <video id="bgvid" src="./assets/videos/liquidateurs_1.mp4" autoplay controls loop></video>
+          </div>
+        </div>
 
       </div>
     </div> 

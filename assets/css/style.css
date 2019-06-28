@@ -5,15 +5,16 @@
 }
 
 /* KEYFRAMES     */
-@keyframes chemin {
-  from {
-   opacity: 0;
-  }
 
-  to {
-   opacity: 1;
+@keyframes up {
+  from {
+    height: 100%;
   }
+   to {
+     height: 0;
+    }
 }
+
 @keyframes translate542 {
   from {
     transform: translateX(-542px)
@@ -108,6 +109,17 @@
   }
 }
 
+@keyframes intro {
+  from {
+    height: 100%;
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
 
 
 body {
@@ -163,6 +175,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    z-index:0;
   }
   
   .section--isFixed .section__inner {
@@ -253,12 +266,14 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  z-index:0;
 }
 
 .article--two {
   background: url('../images/bg1.png') no-repeat;
   background-size: cover;
   height: 100vh;
+  z-index:0;
 }
 
 .bg2 {
@@ -370,6 +385,7 @@ body {
   flex-direction: column;
   position: absolute;
   right: 0;
+  z-index: 0;
 }
 
 .right h2 {
@@ -425,7 +441,7 @@ body {
   border-radius: 10px;
   position: relative;
   transition: 300ms;
-  z-index: 100;
+  z-index: 10000;
 }
 
 .round:hover {
@@ -564,11 +580,12 @@ transition: transform 800ms ease;
 }
 
 .up {
-transform: translateY(-100%);
+animation: up 2s forwards;
 }
 
 .down {
-transform: translateY(100%);
+  animation: up 2s forwards;
+
 } 
 /* article2 */
 
@@ -895,6 +912,7 @@ font-weight: 100;
   background-color:black;
   position: relative;
   flex-direction: column;
+  z-index:0;
 
 }
 
@@ -1191,6 +1209,7 @@ font-weight: 100;
   background-attachment: fixed;
   position: relative;
   flex-direction: column;
+  z-index:0;
 }
 
 
@@ -2066,4 +2085,29 @@ height: 378px;
   width: 614px;
 height: 755px;
 margin-top: 30px;
+}
+
+
+git
+.sound {
+  position: fixed;
+  top:5px;
+  left: 5px;
+  z-index: 100;
+}
+
+.sound__stop {
+  height: 20px;
+  width: 20px;
+}
+
+video#bgvid {
+  position: absolute; 
+  right: 0; 
+  bottom: 0;
+ min-width: 95%; 
+  min-height: 100%;
+  width: auto; height: auto;
+  z-index: 100;
+  
 }
