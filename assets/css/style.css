@@ -132,9 +132,7 @@ body {
 
   }
 
-  /* html {
-    cursor: url('../images/souris.png'), pointer;
-  } */
+/* cursor */
 
   .cursor {
     border: #FBFBFB 1px solid;
@@ -145,6 +143,8 @@ body {
     transition-duration: 100ms;
     transition-timing-function: ease-out;
   }
+
+  /* horitonal scroll */
   
   .section {
     height: 100vh;
@@ -241,8 +241,6 @@ body {
   z-index:100;
   height:20px;
   width: 100vw;
-  background-color:rgb(107, 9, 9);
-  color:red;
   display: flex;
 
 }
@@ -253,8 +251,6 @@ body {
   z-index:100;
   height:10px;
   width: 100px;
-  background-color:rgb(219, 17, 17);
-  color:red;
 }
 
 
@@ -1839,17 +1835,32 @@ font-weight: 200;
 
 /* section 7 page 2  */
 
+.products__product9 {
+  flex-basis: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 100px;
+  font-family: Oswald, sans-serif;
+  background-image: url('../images/fond4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  flex-direction: column;
 
+}
 
 .section7__page2 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
+  margin-top: 50px;
 }
 
 .page2__containt {
   margin-right: 30px;
   position: relative;
+  margin-top: -9px;
 }
 
 .page2__title1 {
@@ -1868,12 +1879,12 @@ font-weight: 200;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 331px;
-  height: 273px;
+  width: 308px;
+  height: 202px;
   background-color: rgba(0, 0, 0, 0.76);
   margin-top: 10px;
   color: white;
-  font-size: 28px;
+  font-size: 24px;
   font-family: Oswald, sans-serif;
   font-weight: 100;
   line-height: 120%;
@@ -1886,12 +1897,12 @@ font-weight: 200;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 331px;
-  height: 391px;
+  width: 268px;
+  height: 280px;
   background-color: rgba(0, 0, 0, 0.76);
   margin-top: 30px;
   color: white;
-  font-size: 28px;
+  font-size: 24px;
   font-family: Oswald, sans-serif;
   font-weight: 100;
   line-height: 120%;
@@ -1902,14 +1913,14 @@ font-weight: 200;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 810px;
-  height: 213px;
+  width: 578px;
+  height: 159px;
   background-color: rgba(0, 0, 0, 0.76);
   margin-top: 30px;
   position: absolute;
-  top: 700px;
+  top: 550px;
   color: white;
-  font-size: 28px;
+  font-size: 24px;
   font-family: Oswald, sans-serif;
   font-weight: 100;
   text-align: center;
@@ -1917,14 +1928,15 @@ font-weight: 200;
 }
 
 .page2__image1 {
-  width: 522px;
-  height: 287px;
+  width: 398px;
+  height: 197px;
+
 }
 
 .page2__image2 {
-  width: 522px;
-  height: 627px;
-  margin-top: 30px;
+    width: 397px;
+    height: 453px;
+    margin-top: 30px;
 }
 
 /* sons */

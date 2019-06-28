@@ -4,63 +4,66 @@ include 'assets/inc/header.php';
 ?>
 
 <main class="container body">
-<section class="section section--horizontal" id="chapterOne">
-    <div class="cursor" id="cursor"></div>
-    <div class="sound" id="sound">
-      <div class="sound__stop">
-          <span><img src="assets/images/sound.svg" alt="soundMute"></span>
-      </div>
-    </div>
-      <div class="chapter chapter--art2" id="chapter">
-          <div class="line">
-            <!-- <div class="line line__in" id="line__in"></div> -->
-            <div class="round" id="round__one">
-            <a href="#one"><p class="round--title" id="roundOne"></p></a>
-            </div>
-            <div class="round" id="round__two">
-            <a href="#two"><p class="round--title" id="roundTwo"></p></a>
-            </div>
-            <div class="round" id="round__three">
-             <a href="#three"> <p class="round--title" id="roundThree"></p></a>
-            </div>
-            <div class="round" id="round__four">
-              <a href="#four"><p class="round--title" id="roundFour"></p></a>
+  <section class="section section--horizontal" id="chapterOne">
+        <div class="cursor" id="cursor"></div>
+
+        <div class="sound" id="sound">
+          <div class="sound__stop">
+              <span><img src="assets/images/sound.svg" alt="soundMute"></span>
           </div>
-          <div class="round" id="round__five">
-              <a href="#five"><p class="round--title" id="roundFive"></p></a>
-          </div>
-
-      </div>
-    </div>
-
-	    <div class="section__inner">
-		    <div class="products" id="productList">
-      <!-- home page -->
-			<div class="products__product section--horizontal">
-				<div class="home__text">
-          <h1 class="product__author"><span class="v">V</span>aleri Legassov</h1>
-					<h2 class="product__date">1936 - 1988</h2>
-					<h2 class="product__title" id="firstArticle">L'envers du décor</h2>
-					<div class="next"><a href="#one"><img src="assets/images/arrow.svg" alt="arrowNext"></a></div>
-				</div>
-				<div class="blocHome"></div>
-      </div>
-      
-      <!-- end homepage -->
-
-      <!-- DEBUT ARTCILE 1 -->
-			<div class="products__product section--horizontal">
-				<div class="article--one" id="one">
-					<div class="triangle">
-						<img src="assets/images/triangle1.svg" alt="">
-						<p class="triangle--text">
-							<span class="bold">Valeri Legassov</span> est l’un des initiateurs du programme nucléaire soviétique.
-						</p>
-					</div>
         </div>
-      </div>
-    </div>
-</section>
+
+        <div class="chapter chapter--art2" id="chapter">
+            <div class="line">
+              <!-- <div class="line line__in" id="line__in"></div> -->
+              <div class="round" id="round__one">
+                <a href="#one"><p class="round--title" id="roundOne"></p></a>
+              </div>
+              <div class="round" id="round__two">
+                <a href="#two"><p class="round--title" id="roundTwo"></p></a>
+              </div>
+              <div class="round" id="round__three">
+                <a href="#three"> <p class="round--title" id="roundThree"></p></a>
+              </div>
+              <div class="round" id="round__four">
+                <a href="#four"><p class="round--title" id="roundFour"></p></a>
+              </div>
+              <div class="round" id="round__five">
+                <a href="#five"><p class="round--title" id="roundFive"></p></a>
+              </div>
+
+          </div>
+        </div>
+
+        <div class="section__inner">
+          <div class="products" id="productList">
+            <!-- home page -->
+            <div class="products__product section--horizontal">
+              <div class="home__text">
+                <h1 class="product__author"><span class="v">V</span>aleri Legassov</h1>
+                <h2 class="product__date">1936 - 1988</h2>
+                <h2 class="product__title" id="firstArticle">L'envers du décor</h2>
+                <div class="next"><a href="#one"><img src="assets/images/arrow.svg" alt="arrowNext"></a></div>
+              </div>
+              <div class="blocHome"></div>
+            </div>
+        
+        <!-- end homepage -->
+
+        <!-- DEBUT ARTCILE 1 -->
+          <div class="products__product section--horizontal">
+            <div class="article--one" id="one">
+              <div class="triangle">
+                <img src="assets/images/triangle1.svg" alt="">
+                <p class="triangle--text">
+                  <span class="bold">Valeri Legassov</span> est l’un des initiateurs du programme nucléaire soviétique.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+  </section>
 
 <div class="article--two">
       <div class="right">
@@ -397,8 +400,8 @@ include 'assets/inc/header.php';
 <section class="section section--horizontal">
   <div class="section__inner">
     <div class="products" id="productList">
-      <div class="products__product6 section--horizontal">
-        
+
+      <div class="products__product9 section--horizontal">
         <section class="section7__page2">
           <div class="page2__containt">
 
@@ -407,10 +410,10 @@ include 'assets/inc/header.php';
               <p id="paragraphEightArticleFour"></p>
             </div>
             <div class="page2_text2">
-            <p id="paragraphNineArticleFour"></p>
+              <p id="paragraphNineArticleFour"></p>
             </div>
             <div class="page2_text3">
-            <p id="paragraphTenArticleFour"></p>
+              <p id="paragraphTenArticleFour"></p>
             </div>
           </div>
           <div class="page2__images">
