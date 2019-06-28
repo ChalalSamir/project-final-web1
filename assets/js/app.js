@@ -129,7 +129,19 @@ sound.addEventListener('click', () => {
     audio.pause();
   } else {
     audio.play();
-
   }
-
 });
+
+let vid = document.getElementById('bgvid');
+
+vid.addEventListener('mouseover', (e) => {
+  vid.play();
+  audio.pause();
+});
+
+vid.addEventListener('mouseleave', (e) => {
+  vid.pause();
+  audio.play();
+
+
+})
