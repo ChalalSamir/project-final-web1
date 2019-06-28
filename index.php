@@ -282,27 +282,22 @@ include 'assets/inc/header.php';
               <h1 class="five_circle_number">2</h1>
             </div>
 
-            <p class="five_title">Materiel défectueux</p>
+            <p class="five_title" id="paragraphSixArticleThree"></p>
 
-            <h2 class="five__subtitle">Réacteur RBMK</h2>
+            <h2 class="five__subtitle" id="paragraphSevenArticleThree"></h2>
 
             <ul class="five__containt">
-              <li>Le cœur des reacteurs rbmk est instable en dessous de 700 MWth.</li>
-              <li>En clair, à faible puissance  le réacteur devient difficilement contrôlable. </li>
-              <li>L’explosion de Tchernobyl s’est produite, précisément, lors d’un essai à faible
-                 puissance c’est-à-dire dans un contexte d’instabilité de ce réacteur. </li>
-              <li>Les réacteurs autres que RBMK toute réaction nucléaire tendant à 
-                l’emballement est, par conception du réacteur, automatiquement ralentie.</li>
-              <li>Les ingénieurs russes connaissaient cette instabilité</li>
+              <li id="paragraphEightArticleThree"></li>
+              <li id="paragraphNineArticleThree"></li>
+              <li id="paragraphTenArticleThree"></li>
+              <li id="paragraphElevenArticleThree"></li>
+              <li id="paragraphTwelveArticleThree"></li>
             </ul>
-
-
-     
         </div>
 
         <div class="products__product6 section--horizontal">
           <div class="first_div"> 
-            <h1>Politique</h1>
+            <h1 id="titleArticleFour"></h1>
             <div></div>
           </div>
         </div>
@@ -313,9 +308,7 @@ include 'assets/inc/header.php';
 
   <section class="second">
     <div class="second_div">
-    <p><span class="span_big">Légassov,</span> reproche a l’union soviétique de produire
-    des réacteurs qui ne respectent pas <span class="span_font">les normes de sécurité</span>,
-    malgré l’alerte de nombreux scientifiques.</p>
+    <p id="contentArticleFour"></p>
     </div>
   </section>
 
@@ -327,54 +320,42 @@ include 'assets/inc/header.php';
         <div class="products__product7 section--horizontal">
           <section class="three">
             <div class="three_div">
-            <p class="three_text-first">Cette négligence s’explique par
-            le climat de guerre froide qui règnait
-            à l’époque de la construction de la centrale.</p>
+            <p class="three_text-first" id="dateArticleFour"></p>
 
-            <p class="three_text-second">La course à la technologie entre 
-            l’URSS et les Etats unis a incitée
-            le bloc de l’est à précipiter la construction
-            de la centrale en négligeant certaines normes de
-            sécurité,</p>
+            <p class="three_text-second" id="paragraphOneArticleFour"></p>
 
-            <p class="three_text-three">pour produire un maximum d’énergie 
-            le plus rapidement possible avec des matériaux moins couteux
-            tel que le graphite</p>
+            <p class="three_text-three" id="paragraphTwoArticleFour"></p>
             </div>
           </section> 
         </div>
 
         <div class="products__product6 section--horizontal">
           <img class="section4__image" src="assets/images/rectangle3.png" alt="">
-          <p class="section4__text">
-          Légasov a exprimé sa désillusion quant à la gestion de la 
-          catastrophe par les autorités russes.
+          <p class="section4__text" id="paragraphThreeArticleFour">
+          
           </p>
         </div>
 
         <div class="products__product6 section--horizontal">
           <img class="section5__image" src="assets/images/rectangle4.png" alt="">
-          <p class="section5__text">
-          “Des robots biologiques”
+          <p class="section5__text" id="paragraphFourArticleFour">
+          
           </p>
           <img src="assets/images/article4--image1.png" alt="" class="section5__image1">
-          <p class="section5__text1">Afin de ne pas divulguer le réel taux
-             de radioactivité  aux yeux de la scène internationale
+          <p class="section5__text1" id="paragraphFiveArticleFour">
           </p>
         </div>
 
         <div class="products__product6 section--horizontal">
           <img class="section6__image" src="assets/images/rectangle3.png" alt="">
-          <p class="section6__text">
-          l’Union soviétique préfère sacrifier des hommes.
+          <p class="section6__text" id="paragraphSixArticleFour">
+          
           </p>
           <img src="assets/images/article4--image2.png" alt="" class="section6__image1">
           <img src="assets/images/article4--image3.png" alt="" class="section6__image2">
           <div class="textContaint">
-            <p class="textContaint__text">
-              Ce sont donc les <strong>“liquidateurs”</strong>. composés d’hommes volontaires
-              pour la plupart qui s’exposeront mortellement aux radiations
-              afin de décontaminer la région de tchernobyl.
+            <p class="textContaint__text" id="paragraphSevenArticleFour">
+             
             </p>
           </div>
           

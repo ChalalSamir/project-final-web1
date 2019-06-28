@@ -185,7 +185,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 100px;
-    font-family: Helvetica, sans-serif;
+    font-family: Oswald, sans-serif;
     position: relative;
     flex-direction: column;
     background: url(../images/bgHome.png) no-repeat center;
@@ -200,7 +200,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 100px;
-    font-family: Helvetica, sans-serif;
+    font-family: Oswald, sans-serif;
     position: relative;
     flex-direction: column;
     background: url('../images/bg3.png') no-repeat center;
@@ -214,7 +214,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 100px;
-    font-family: Helvetica, sans-serif;
+    font-family: Oswald, sans-serif;
     background-color:rgb(107, 9, 9);
     position: relative;
     flex-direction: column;
@@ -667,6 +667,9 @@ transform: translateY(100%);
   animation: type 4s steps(40, end); 
   animation-fill-mode: forwards;
   color: white;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
+
 }
 
 /* page 3 */
@@ -716,7 +719,8 @@ transform: translateY(100%);
   margin-top: -240px;
   transform: translateX(150%);
   animation: translate150 1.5s forwards;
-
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
 }
 
 .text__2 p {
@@ -734,6 +738,9 @@ transform: translateY(100%);
   height: 147px;
   transform: translateX(100%);
   animation: translate 1.5s forwards;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
+
 
 }
 
@@ -858,7 +865,8 @@ transform: translateY(100%);
   transform: translateX(-542px); 
   animation: translate542 1s forwards;
   animation-delay: 10s;
-
+font-family: Oswald, sans-serif;
+font-weight: 100;
 }
 
 
@@ -882,7 +890,8 @@ transform: translateY(100%);
   align-items: center;
   justify-content: center;
   font-size: 100px;
-  font-family: Helvetica, sans-serif;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
   background-color:black;
   position: relative;
   flex-direction: column;
@@ -896,7 +905,7 @@ transform: translateY(100%);
   align-items: center;
   justify-content: center;
   font-size: 100px;
-  font-family: Helvetica, sans-serif;
+  font-family: Oswald, sans-serif;
   background-color:black;
   position: relative;
   flex-direction: column;
@@ -948,7 +957,7 @@ transform: translateY(100%);
   align-items: center;
   justify-content: center;
   font-size: 22px;
-  font-family: Helvetica, sans-serif;
+  font-family: Oswald, sans-serif;
   background-color:black;
   position: relative;
   flex-direction: column;
@@ -986,6 +995,7 @@ transform: translateY(100%);
   flex-direction: column;
   justify-content: space-between;
   margin-top: -160px;
+  font-weight: 100;
 }
 
 .page6__text p:nth-child(1) {
@@ -1046,7 +1056,7 @@ transform: translateY(100%);
   align-items: center;
   justify-content: center;
   font-size: 22px;
-  font-family: Helvetica, sans-serif;
+  font-family: Oswald, sans-serif;
   background-color: black;
   position: relative;
   flex-direction: column;
@@ -1078,6 +1088,7 @@ transform: translateY(100%);
   line-height: 125%;
   margin-left: 43px;
   margin-top: -273px;
+  font-weight: 100;
 
 }
 
@@ -1090,7 +1101,8 @@ transform: translateY(100%);
   align-items: center;
   justify-content: center;
   font-size: 22px;
-  font-family: Helvetica, sans-serif;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
   background-color:black;
   position: relative;
   flex-direction: column;
@@ -1173,7 +1185,7 @@ transform: translateY(100%);
   align-items: center;
   justify-content: center;
   font-size: 100px;
-  font-family: Helvetica, sans-serif;
+  font-family: Oswald, sans-serif;
   background: url('../images/fond.png') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
@@ -1183,7 +1195,7 @@ transform: translateY(100%);
 
 
 @font-face {
-  font-family: oswald-light;
+  font-family: Oswald;
   src: url(../oswald/oswald.light.ttf);
 }
 
@@ -1212,7 +1224,7 @@ transform: translateY(100%);
 /* section 2 */
 
 .second p {
-  font-family: 'oswald-light', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 100;
   color: white;
   font-size: 34px;
@@ -1255,7 +1267,7 @@ transform: translateY(100%);
 }
 
 .three_text p, .three_text--second {
-  font-family: 'oswald-light', sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 100;
   color: white;
   font-size: 64px;
@@ -1292,14 +1304,16 @@ transform: translateY(100%);
 }
 
 .foor .foor_circle_number {
-  font-family: 'oswald-light', sans-serif;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
   font-size: 36px;
   color: white;
   position: absolute;
 }
 
 .foor h1 {
-  font-family: 'oswald-light', sans-serif;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
   font-size: 55px;
   color: white;
   padding: 5px 0 0 215px;
@@ -1324,7 +1338,7 @@ transform: translateY(100%);
 }
 
 .foor_text p {
-  font-family: 'oswald-light', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 33px;
   color: white;
   width: 900px;
@@ -1358,14 +1372,14 @@ p .span_white {
 }
 
 .five_circle_number {
-  font-family: 'oswald-light', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 36px;
   color: white;
   position: absolute;
 }
 
 .five_title {
-  font-family: 'oswald-light', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 55px;
   color: white;
   position: absolute;
@@ -1413,7 +1427,7 @@ p .span_white {
   align-items: center;
   justify-content: center;
   font-size: 100px;
-  font-family: Helvetica, sans-serif;
+  font-family: Oswald, sans-serif;
   background-image: url('../images/fond4.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -1461,7 +1475,7 @@ p .span_white {
 }
 
 .second_div p  { 
-  font-family: oswald-light, sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 100;
   font-size: 33px;
   color: white;
@@ -1471,12 +1485,12 @@ p .span_white {
 }
 
 .second_div p .span_big {
-  font-family: oswald, sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 44px;
 }
 
 .second_div p .span_font {
-  font-family: oswald, sans-serif;
+  font-family: Oswald, sans-serif;
 }
 
 /* section 3 */
@@ -1487,7 +1501,7 @@ p .span_white {
   display: flex;
   justify-content: center;
   font-size: 100px;
-  font-family: Helvetica, sans-serif;
+  font-family: Oswald, sans-serif;
   position: relative;
   flex-direction: column;
 }
@@ -1503,7 +1517,7 @@ p .span_white {
 }
 
 .three_div .three_text-first {
-  font-family: oswald-light, sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 100;
   font-size: 30px;
   color: white;
@@ -1513,7 +1527,7 @@ p .span_white {
 }
 
 .three_div .three_text-second {
-  font-family: oswald-light, sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 100;
   font-size: 30px;
   color: white;
@@ -1524,7 +1538,7 @@ p .span_white {
 }
 
 .three_div .three_text-three {
-  font-family: oswald-light, sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 100;
   font-size: 30px;
   color: white;
@@ -1550,6 +1564,8 @@ p .span_white {
   line-height: 150%;
   left: 75px;
   top: 500px;
+  font-family: Oswald, sans-serif;
+    font-weight: 100;
 }
 
 .section4__image {
@@ -1568,6 +1584,8 @@ p .span_white {
   left: 407px;
   top: 319px;
   padding-right: 588px;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
 
 }
 
@@ -1583,6 +1601,8 @@ p .span_white {
     z-index: 1;
     margin-top: 374px;
     margin-left: 439px;
+    font-family: Oswald, sans-serif;
+    font-weight: 100;
   }
 
   .section6__image {
@@ -1612,7 +1632,7 @@ p .span_white {
   }
 
   .textContaint {
-    height: 330px;
+    height: 290px;
     width: 455px;
     position: absolute;
     top: 60px;
@@ -1626,7 +1646,9 @@ p .span_white {
   }
 
   .textContaint__text {
-    font-size: 24px;
+    font-family: Oswald, sans-serif;
+    font-weight: 100;
+    font-size: 26px;
     color: white;
     padding: 10px;
   }

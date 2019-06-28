@@ -7,6 +7,13 @@ let articleThree = (id) => {
   let paragraphThreeArticleThree = document.getElementById('paragraphThreeArticleThree');
   let paragraphFourArticleThree = document.getElementById('paragraphFourArticleThree');
   let paragraphFiveArticleThree = document.getElementById('paragraphFiveArticleThree');
+  let paragraphSixArticleThree = document.getElementById('paragraphSixArticleThree');
+  let paragraphSevenArticleThree = document.getElementById('paragraphSevenArticleThree');
+  let paragraphEightArticleThree = document.getElementById('paragraphEightArticleThree');
+  let paragraphNineArticleThree = document.getElementById('paragraphNineArticleThree');
+  let paragraphTenArticleThree = document.getElementById('paragraphTenArticleThree');
+  let paragraphElevenArticleThree = document.getElementById('paragraphElevenArticleThree');
+  let paragraphTwelveArticleThree = document.getElementById('paragraphTwelveArticleThree');
 
   asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
     // Boucle sur la collection
@@ -19,6 +26,13 @@ let articleThree = (id) => {
     paragraphThreeArticleThree.innerHTML = `${data.articles[id].paragraph_three}`;
     paragraphFourArticleThree.innerHTML = `${data.articles[id].paragraph_four}`;
     paragraphFiveArticleThree.innerHTML = `${data.articles[id].paragraph_five}`;
+    paragraphSixArticleThree.innerHTML = `${data.articles[id].paragraph_six}`;
+    paragraphSevenArticleThree.innerHTML = `${data.articles[id].paragraph_seven}`;
+    paragraphEightArticleThree.innerHTML = `${data.articles[id].paragraph_eight}`;
+    paragraphNineArticleThree.innerHTML = `${data.articles[id].paragraph_nine}`;
+    paragraphTenArticleThree.innerHTML = `${data.articles[id].paragraph_ten}`;
+    paragraphElevenArticleThree.innerHTML = `${data.articles[id].paragraph_eleven}`;
+    paragraphTwelveArticleThree.innerHTML = `${data.articles[id].paragraph_twelve}`;
   }).catch(err => console.error(err))
 }
 
