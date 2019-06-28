@@ -686,7 +686,7 @@ animation: up 2s forwards;
   color: white;
   font-family: Oswald, sans-serif;
   font-weight: 100;
-
+  text-align: center;;
 }
 
 /* page 3 */
@@ -1013,6 +1013,7 @@ font-weight: 100;
   flex-direction: column;
   justify-content: space-between;
   margin-top: -160px;
+  font-family: Oswald, sans-serif;
   font-weight: 100;
 }
 
@@ -1025,6 +1026,8 @@ font-weight: 100;
   margin-left: 143px;
   line-height: 161%;
   font-weight: bold;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
 }
 
 .page6__text p:nth-child(2) {
@@ -1358,6 +1361,7 @@ font-weight: 100;
 
 .foor_text p {
   font-family: 'Oswald', sans-serif;
+  font-weight: 100 ;
   font-size: 33px;
   color: white;
   width: 900px;
@@ -1860,26 +1864,43 @@ font-weight: 200;
 }
 
 .page2_text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 331px;
   height: 273px;
   background-color: rgba(0, 0, 0, 0.76);
   margin-top: 10px;
   color: white;
-  font-size: 30px
+  font-size: 28px;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
+  line-height: 120%;
+  text-align: center;
 }
 
 
 
 .page2_text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 331px;
   height: 391px;
   background-color: rgba(0, 0, 0, 0.76);
   margin-top: 30px;
   color: white;
-  font-size: 30px
+  font-size: 28px;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
+  line-height: 120%;
+  text-align: center;
 }
 
 .page2_text3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 810px;
   height: 213px;
   background-color: rgba(0, 0, 0, 0.76);
@@ -1887,7 +1908,11 @@ font-weight: 200;
   position: absolute;
   top: 700px;
   color: white;
-  font-size: 30px
+  font-size: 28px;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  line-height: 120%;
 }
 
 .page2__image1 {
