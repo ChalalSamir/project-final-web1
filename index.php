@@ -417,22 +417,16 @@ include 'assets/inc/header.php';
     </div>
     </div>
 
+    <section class="section section--horizontal">
+      <div class="section__inner">
+        <div class="products" id="productList">
+      
 
-    <section class="section7__page2">
-      <div class="page2__containt">
-        <h1 class="page2__title1">KGB</h1>
-        <div class="page2_text1">
-          <p id="paragraphEightArticleFour"></p>
-        </div>
-        <div class="page2_text2"></div>
-        <div class="page2_text3"></div>
       </div>
-      <div class="page2__images">
-        <img src="assets/images/section7--image1.png" alt="" class="page2__image1">
-        <img src="assets/images/section7--image2.png" alt="" class="page2__image2">
-      </div>
-    </section>
+    </div> 
   </section>
+
+
 
   
 
