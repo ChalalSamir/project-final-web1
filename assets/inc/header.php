@@ -25,3 +25,6 @@
 <audio id="audio" autoplay>
     <source src="assets/videos/fondSonore.mp3" type="audio/mp3">
 </audio>
+
+<div class="top up "></div>
+<div class="bottom up"></div>
