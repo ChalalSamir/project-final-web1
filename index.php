@@ -216,9 +216,12 @@ include 'assets/inc/header.php';
   </p>
 
 </div>
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 6f73798b186c1bc7088a7655e3ffe501363c92d3
 <section class="section section--horizontal">
 	<div class="section__inner">
 		<div class="products" id="productList">
@@ -382,7 +385,7 @@ include 'assets/inc/header.php';
 
         <div class="products__product6 section--horizontal">
           <div class="product--video">
-          <video id="bgvid" src="./assets/videos/liquidateurs_1.mp4" autoplay controls loop></video>
+          <video id="bgvid" src="./assets/videos/liquidateurs_1.mp4" controls loop></video>
           </div>
         </div>
 
