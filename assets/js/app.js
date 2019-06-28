@@ -1,3 +1,4 @@
+
 // Get all horizontal scroll element
 var horizontals = document.querySelectorAll('.section--horizontal');
 
@@ -113,9 +114,22 @@ document.addEventListener('mousemove', e => {
   cursor.setAttribute('style', 'top:' + (e.pageY + -5) + 'px; left:' + (e.pageX - 10) + 'px;');
 });
 
-var waypoint = new Waypoint({
-  element: document.getElementById('articleFour'),
-  handler: function (direction) {
-    document.getElementById('articleFour').classList.add('article4__text--animation');
+
+
+//audio play 
+
+let audio = document.getElementById('audio');
+let sound = document.getElementById('sound');
+let promptSound = 0;
+
+
+sound.addEventListener('click', () => {
+  promptSound++;
+  if (promptSound % 2 != 0) {
+    audio.pause();
+  } else {
+    audio.play();
+
   }
+
 })

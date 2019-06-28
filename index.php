@@ -6,6 +6,11 @@ include 'assets/inc/header.php';
 <main class="container body">
 <section class="section section--horizontal" id="chapterOne">
     <div class="cursor" id="cursor"></div>
+    <div class="sound" id="sound">
+      <div class="sound__stop">
+          <span><img src="assets/images/sound.svg" alt="soundMute"></span>
+      </div>
+    </div>
       <div class="chapter chapter--art2" id="chapter">
           <div class="line">
             <!-- <div class="line line__in" id="line__in"></div> -->

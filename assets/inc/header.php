@@ -13,7 +13,6 @@
     <script defer src="assets/js/articleFour.js"></script>
     <script defer src="assets/js/articleFive.js"></script>
     <script defer src="assets/js/getChapter.js"></script>
-    <script defer src="assets/js/waypoint/waypoint.js"></script>
 
     <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -23,6 +22,6 @@
     <title>TchernoByLegassov</title>
 </head>
 <body>
-<audio autoplay>
+<audio id="audio" autoplay>
     <source src="assets/videos/fondSonore.mp3" type="audio/mp3">
 </audio>
