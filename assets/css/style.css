@@ -1013,6 +1013,7 @@ font-weight: 100;
   flex-direction: column;
   justify-content: space-between;
   margin-top: -160px;
+  font-family: Oswald, sans-serif;
   font-weight: 100;
 }
 
@@ -1025,6 +1026,8 @@ font-weight: 100;
   margin-left: 143px;
   line-height: 161%;
   font-weight: bold;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
 }
 
 .page6__text p:nth-child(2) {
@@ -1358,7 +1361,7 @@ font-weight: 100;
 
 .foor_text p {
   font-family: 'Oswald', sans-serif;
-  font-weight: 100;
+  font-weight: 100 ;
   font-size: 33px;
   color: white;
   width: 900px;
