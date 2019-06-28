@@ -346,22 +346,24 @@ include 'assets/inc/header.php';
           <p class="section5__text1" id="paragraphFiveArticleFour">
           </p>
         </div>
+
         <div class="products__product6 section--horizontal">
           <img class="section6__image" src="assets/images/rectangle3.png" alt="">
           <p class="section6__text" id="paragraphSixArticleFour">
-          
           </p>
+
           <img src="assets/images/article4--image2.png" alt="" class="section6__image1">
           <img src="assets/images/article4--image3.png" alt="" class="section6__image2">
           <div class="textContaint">
-            <p class="textContaint__text" id="paragraphSevenArticleFour">
-             
-            </p>
+            <p class="textContaint__text" id="paragraphSevenArticleFour"></p>
           </div>
-          
         </div>
 
-
+        <div class="products__product6 section--horizontal">
+          <div class="product--video">
+          <video id="bgvid" src="./assets/videos/liquidateurs_1.mp4" autoplay controls loop></video>
+          </div>
+        </div>
 
       </div>
     </div> 

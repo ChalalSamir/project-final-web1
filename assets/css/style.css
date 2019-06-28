@@ -1899,3 +1899,14 @@ p .span_white {
   height: 20px;
   width: 20px;
 }
+
+video#bgvid {
+  position: absolute; 
+  right: 0; 
+  bottom: 0;
+ min-width: 95%; 
+  min-height: 100%;
+  width: auto; height: auto;
+  z-index: 100;
+  
+}
