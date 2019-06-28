@@ -3,27 +3,25 @@ require 'assets/config/bootstrap.php';
 include 'assets/inc/header.php';
 ?>
 <main class="container body">
-
-  <section class="section section--horizontal" id="chapterOne">
-    <div class="chapter chapter--art2" id="chapter">
-    <!-- progress bar -->
-      <div class="line">
-          <div class="line line__in" id="line__in"></div>
-
-          <div class="round is--in">
+<section class="section section--horizontal" id="chapterOne">
+    <div class="cursor" id="cursor"></div>
+<div class="chapter chapter--art2" id="chapter">
+          <div class="line">
+            <!-- <div class="line line__in" id="line__in"></div> -->
+            <div class="round" id="round__one">
             <a href="#one"><p class="round--title" id="roundOne"></p></a>
-          </div>
-          <div class="round">
+            </div>
+            <div class="round" id="round__two">
             <a href="#two"><p class="round--title" id="roundTwo"></p></a>
+            </div>
+            <div class="round" id="round__three">
+             <a href="#three"> <p class="round--title" id="roundThree"></p></a>
+            </div>
+            <div class="round" id="round__four">
+              <a href="#four"><p class="round--title" id="roundFour"></p></a>
           </div>
-          <div class="round">
-            <a href="#three"> <p class="round--title" id="roundThree"></p></a>
-          </div>
-          <div class="round">
-            <a href="#four"><p class="round--title" id="roundFour"></p></a>
-          </div>
-          <div class="round">
-            <a href="#five"><p class="round--title" id="roundFive"></p></a>
+          <div class="round" id="round__five">
+              <a href="#five"><p class="round--title" id="roundFive"></p></a>
           </div>
 
       </div>
@@ -32,14 +30,13 @@ include 'assets/inc/header.php';
 	    <div class="section__inner">
 		    <div class="products" id="productList">
       <!-- home page -->
-			    <div class="products__product section--horizontal">
-				    <div class="home__text">
-               <h1 class="product__author"><span class="v">V</span>alerie Legasov</h1>
-             <!--  <div class="cursor" id="cursor"></div> -->
-              <h2 class="product__date">1936 - 1938</h2>
-              <h2 class="product__title" id="firstArticle">L'envers du décor</h2>
-					  <div class="next"><a href="#one"><img src="assets/images/arrow.svg" alt="arrowNext"></a></div>
-				  </div>
+			<div class="products__product section--horizontal">
+				<div class="home__text">
+          <h1 class="product__author"><span class="v">V</span>aleri Legassov</h1>
+					<h2 class="product__date">1936 - 1988</h2>
+					<h2 class="product__title" id="firstArticle">L'envers du décor</h2>
+					<div class="next"><a href="#one"><img src="assets/images/arrow.svg" alt="arrowNext"></a></div>
+				</div>
 				<div class="blocHome"></div>
       </div>
       
@@ -51,7 +48,7 @@ include 'assets/inc/header.php';
 					<div class="triangle">
 						<img src="assets/images/triangle1.svg" alt="">
 						<p class="triangle--text">
-							<span class="bold">Valery Legasov</span> fut parmis les initiateurs du programme nucléaire soviétique.
+							<span class="bold">Valeri Legassov</span> est l’un des initiateurs du programme nucléaire soviétique.
 						</p>
 					</div>
         </div>
@@ -93,12 +90,11 @@ include 'assets/inc/header.php';
 			<!-- home page -->
 			<div class="products__product1 section--horizontal">
         <div class="notes close" id="notes">
-        <p id="notes--text">
-          </p>
+        <p id="paragraphThree"></p>
         </div>
       </div>
 
-			<div class="products__product2 section--horizontal">
+			<div class="products__product2 section--horizontal" id="teddy">
         <div class="article_Two">
         <h1 class="articleTwo__title" id="titleArticleTwo"></h1>
         <div class="titleContainer"></div>
@@ -110,7 +106,6 @@ include 'assets/inc/header.php';
 </section>
 
 <div class="articleTwo__page2">
-
       <div class="page2__titleContainer"></div>
         <div class="typrewritter">
         <p class="css-typing" id="dateArticleTwo"></p>
@@ -120,35 +115,30 @@ include 'assets/inc/header.php';
 <div class="articleTwo__page3">
 
     <div class="page3__video">
-      <video class="article2__video1">
+      <video class="article2__video1" controls>
         <source src="assets/videos/article2-video1.mp4" type="video/mp4">
 
       </video>
     </div>
 
     <div class="page3__text">
-        
         <div class="text__1">
             <p id="paragraphOneArticleTwo"></p>
-            <div class="chemin2"></div>
+            <div class="chemin chemin2"></div>
         </div>
-
         <div class="text__2">
             <p id="paragraphTwoArticleTwo"></p>
-            <div class="chemin1"></div>
+            <div class="chemin chemin1"></div>
         </div>
-        
-        
     </div>
 </div>
 
 <div class="articleTwo__page4">
-
   <div class="page4__cheminContaint">
-    <div class="chemin3"></div>
-    <div class="chemin4"></div>
-    <div class="chemin5"></div>
-    <div class="chemin6"></div>
+    <div class="chemin chemin3"></div>
+    <div class="chemin chemin4"></div>
+    <div class="chemin chemin5"></div>
+    <div class="chemin chemin6"></div>
 
   </div>
 
@@ -170,7 +160,7 @@ include 'assets/inc/header.php';
 <section class="section section--horizontal">
 	<div class="section__inner">
 		<div class="products" id="productList">
-    <div class="chemin8"></div>
+    <div class="chemin chemin8"></div>
 			<!-- home page -->
 			<div class="products__product3 section--horizontal">
         <div class="typrewritter--1">
@@ -182,7 +172,7 @@ include 'assets/inc/header.php';
 
 			<div class="products__product3 section--horizontal">
         <div class="page3__video">
-        <video controls width="950">
+        <video controls width="950" poster="./assets/images/poster1.png">
 
           <source src="./assets/videos/article2-video2.mp4" type="video/mp4">
         </video>
@@ -194,10 +184,10 @@ include 'assets/inc/header.php';
 </section>
 
 <div class="articleTwo__page6">
-  <div class="chemin9"></div>
-  <div class="chemin10"></div>
-  <div class="chemin11"></div>
-  <div class="chemin12"></div>
+  <div class="chemin chemin9"></div>
+  <div class="chemin chemin10"></div>
+  <div class="chemin chemin11"></div>
+  <div class="chemin chemin12"></div>
     <div class="page6Container">
 
     <img src="assets/images/page6__image.png" alt="" class="page6__image">
@@ -207,14 +197,13 @@ include 'assets/inc/header.php';
 
       <p id="paragraphSevenArticleTwo"></p>
     </div>
-    
     </div>
   </div>
 </div>
 
 <div class="articleTwo__page7">
-  <div class="chemin13"></div>
-  <div class="chemin14"></div>
+  <div class="chemin chemin13"></div>
+  <div class="chemin chemin14"></div>
 
   <p class="page7__text" id="paragraphEightArticleTwo">
 
@@ -231,7 +220,7 @@ include 'assets/inc/header.php';
 			<div class="products__product3 section--horizontal">
 
         <div class="articleTwo__page8">
-          <div class="chemin15"></div>
+          <div class="chemin chemin15"></div>
             <p id="paragraphNineArticleTwo">
             </p>
           </div>
@@ -269,15 +258,13 @@ include 'assets/inc/header.php';
         <div></div>
       </div>
     </section>
-
-      
     <section class="foor">
       <div class="foor_circle">
       <p class="foor_circle_number">1</p>
       </div>
       <h1 id="paragraphThreeArticleThree"></h1>
       <div class="foor__image">
-      <img src="assets/images/image 2.png" alt="image"/>
+      <img src="assets/images/image 2.png" alt="image" />
       <div class="foor_text">
       <p id="paragraphFourArticleThree"></p>
       <p id="paragraphFiveArticleThree"></p>

@@ -77,6 +77,9 @@
 			$paragraph_eight = $_POST['paragraph_eight'];
 			$paragraph_nine = $_POST['paragraph_nine'];
 			$paragraph_ten = $_POST['paragraph_ten'];
+			$paragraph_eleven = $_POST['paragraph_eleven'];
+			$paragraph_twelve = $_POST['paragraph_twelve'];
+			$paragraph_thirteen = $_POST['paragraph_thirteen'];
 
 				$req = $con->prepare('
 					UPDATE articles
@@ -92,7 +95,10 @@
 							paragraph_seven = :paragraph_seven,
 							paragraph_eight = :paragraph_eight,
 							paragraph_nine = :paragraph_nine,
-							paragraph_ten = :paragraph_ten
+							paragraph_ten = :paragraph_ten,
+							paragraph_eleven = :paragraph_eleven,
+							paragraph_twelve = :paragraph_twelve,
+							paragraph_thirteen = :paragraph_thirteen
 					WHERE id =' . $id);
 				$req->bindParam(':title', $title);
 				$req->bindParam(':content', $content);
@@ -107,6 +113,9 @@
 				$req->bindParam(':paragraph_eight', $paragraph_eight);
 				$req->bindParam(':paragraph_nine', $paragraph_nine);
 				$req->bindParam(':paragraph_ten', $paragraph_ten);
+				$req->bindParam(':paragraph_eleven', $paragraph_eleven);
+				$req->bindParam(':paragraph_twelve', $paragraph_twelve);
+				$req->bindParam(':paragraph_thirteen', $paragraph_thirteen);
 				$req->execute();
 
 				echo 'L\'article a bien été modifé';

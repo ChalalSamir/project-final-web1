@@ -66,22 +66,6 @@ function setTranslateX(element, progression) {
   })
 }
 
-
-
-// api
-// const productList = document.querySelector('#productList');
-// let firstArticle = document.querySelector('#firstArticle');
-// let paragraph = document.getElementById('paragraph');
-
-// asyncFetch('http://localhost:8888/project-final-web1/admin/api.php').then(data => {
-//   // Boucle sur la collection
-//   for (let item of data.articles) {
-//     // Ajouter une balise dans le DOM
-//     productList.innerHTML += `<div class="products__product"> ${item.title} </div>`;
-//   }
-
-// }).catch(err => console.error(err))
-
 // page article hover
 
 let postit = document.getElementById('postit');
@@ -127,4 +111,11 @@ let cursor = document.getElementById('cursor');
 
 document.addEventListener('mousemove', e => {
   cursor.setAttribute('style', 'top:' + (e.pageY + -5) + 'px; left:' + (e.pageX - 10) + 'px;');
+});
+
+var waypoint = new Waypoint({
+  element: document.getElementById('articleFour'),
+  handler: function (direction) {
+    document.getElementById('articleFour').classList.add('article4__text--animation');
+  }
 })

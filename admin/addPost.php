@@ -68,6 +68,12 @@ if (isset($_POST['send'])) {
           <textarea class="form-control" name="paragraph_nine" id="content" cols="60" rows="10"><?= $currentPost['paragraph_nine']?></textarea>
           <label class="createLabel" for="paragraph_ten">Paragraphe 10</label>
           <textarea class="form-control" name="paragraph_ten" id="content" cols="60" rows="10"><?= $currentPost['paragraph_ten']?></textarea>
+          <label class="createLabel" for="paragraph_eleven">Paragraphe 11</label>
+          <textarea class="form-control" name="paragraph_eleven" id="content" cols="60" rows="10"><?= $currentPost['paragraph_eleven']?></textarea>
+          <label class="createLabel" for="paragraph_twelve">Paragraphe 12</label>
+          <textarea class="form-control" name="paragraph_twelve" id="content" cols="60" rows="10"><?= $currentPost['paragraph_twelve']?></textarea>
+          <label class="createLabel" for="paragraph_thirteen">Paragraphe 13</label>
+          <textarea class="form-control" name="paragraph_thirteen" id="content" cols="60" rows="10"><?= $currentPost['paragraph_thirteen']?></textarea>
           <input class="btn btn-success" type="submit" name="send">
           <a href="addPost.php"><div class="btn btn-danger">Retour</div></a>
         </form>
