@@ -65,6 +65,9 @@ function setTranslateX(element, progression) {
 
   })
 }
+
+
+
 // api
 // const productList = document.querySelector('#productList');
 // let firstArticle = document.querySelector('#firstArticle');

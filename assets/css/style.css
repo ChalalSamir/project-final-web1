@@ -131,17 +131,6 @@ body {
     position: relative;
   }
   
-  .section--horizontal {
-    height: 400vw;
-  }
-  .section--horizontal .section__inner {
-    width: 400vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
   .section--isFixed .section__inner {
     position: fixed;
   }
@@ -160,20 +149,12 @@ body {
     height: 200vw;
   }
 
-  .section--horizontal--modifier {
-    height: 100vw;
-
-  }
-  .section--horizontal .section__inner {
+  .section__inner {
     width: 200vw;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
-  }
-
-  .modifier {
-    height: 100vw;
   }
   
   .section--isFixed .section__inner {
@@ -197,7 +178,6 @@ body {
     justify-content: center;
     font-size: 100px;
     font-family: Helvetica, sans-serif;
-    background-color: rgb(107, 9, 9);
     position: relative;
     flex-direction: column;
     background: url(../images/bgHome.png) no-repeat center;
@@ -213,7 +193,6 @@ body {
     justify-content: center;
     font-size: 100px;
     font-family: Helvetica, sans-serif;
-    background-color:rgb(107, 9, 9);
     position: relative;
     flex-direction: column;
     background: url('../images/bg3.png') no-repeat center;
@@ -1166,8 +1145,7 @@ transform: translateY(100%);
   background: #471A28;
   position: absolute;
   left: 30px;
-  top: 113px;
-
+  top: 12px;
 }
 
 .products__product5 {
@@ -1345,3 +1323,299 @@ p .span_white {
   font-family: 'oswald', sans-serif;
   font-size: 37px;
 }
+
+/* section 5 */
+
+.five_circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 1000px;
+  background: #471B28;
+  position: absolute;
+  left: 120px;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.five_circle_number {
+  font-family: 'oswald-light', sans-serif;
+  font-size: 36px;
+  color: white;
+  position: absolute;
+}
+
+.five_title {
+  font-family: 'oswald-light', sans-serif;
+  font-size: 55px;
+  color: white;
+  position: absolute;
+  top: 80px;
+  left: 218px;
+
+}
+
+.five__subtitle {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 100px;
+  left: 870px;
+  font-weight: 500;
+}
+
+.five__containt {
+  font-size: 30px;
+  color: white;
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+  margin-right: 159px;
+  font-weight: 100;
+}
+
+.five__containt li:nth-child(3) {
+  width: 795px;
+}
+.five__containt li:nth-child(4) {
+  width: 1212px;
+}
+
+
+
+/* article 4 */
+
+.products__product6 {
+  flex-basis: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-family: Helvetica, sans-serif;
+  background-image: url('../images/fond4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  flex-direction: column;
+
+}
+
+.first, .second, .three {
+  height: 100vh;
+}
+
+.first_div {
+  position: relative;
+}
+
+.first_div h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+  font-size: 108px;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.first_div div {
+  width: 390px;
+  height: 130px;
+  background: #471A28;
+  position: absolute;
+  left: 30px;
+  top: 12px;
+}
+
+/* section 2 */
+
+.second_div {
+  height: 100%;
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second_div p  { 
+  font-family: oswald-light, sans-serif;
+  font-weight: 100;
+  font-size: 33px;
+  color: white;
+  width: 600px;
+  line-height: 160%;
+  word-spacing: 5px;
+}
+
+.second_div p .span_big {
+  font-family: oswald, sans-serif;
+  font-size: 44px;
+}
+
+.second_div p .span_font {
+  font-family: oswald, sans-serif;
+}
+
+/* section 3 */
+
+.products__product7 {
+  flex-basis: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  font-family: Helvetica, sans-serif;
+  position: relative;
+  flex-direction: column;
+}
+
+.three_div {
+  height: 100vh;
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.three_div .three_text-first {
+  font-family: oswald-light, sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: white;
+  width: 600px;
+  line-height: 160%;
+  word-spacing: 5px;
+}
+
+.three_div .three_text-second {
+  font-family: oswald-light, sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: white;
+  width: 600px;
+  line-height: 160%;
+  word-spacing: 5px;
+  margin-top: 50px;
+}
+
+.three_div .three_text-three {
+  font-family: oswald-light, sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: white;
+  width: 600px;
+  line-height: 160%;
+  word-spacing: 5px;
+  margin: 50px 0 50px 0;
+}
+
+/* section 4 */
+
+.section5__image {
+  width: 1697px;
+  height: 434px;
+  position: absolute;
+  left: 0%;
+}
+
+.section5__text {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  line-height: 150%;
+  left: 75px;
+  top: 500px;
+}
+
+.section4__image {
+  width: 1303px;
+  height: 418px;
+  position: absolute;
+  left: 23%;
+  top: 272px;
+}
+
+.section4__text {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  line-height: 160%;
+  left: 407px;
+  top: 319px;
+  padding-right: 588px;
+
+}
+
+.section5__image1 {
+  position: absolute;
+    top: 32%;
+    left: 36%;
+}
+
+  .section5__text1 {
+    font-size: 24px;
+    color: white;
+    z-index: 1;
+    margin-top: 374px;
+    margin-left: 439px;
+  }
+
+  .section6__image {
+    width: 1697px;
+    height: 434px;
+    position: absolute;
+  }
+
+  .section6__text {
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 649px;
+    left: 6%;
+  }
+
+  .section6__image1 {
+    top: 303px;
+    position: absolute;
+    left: -327px;
+  }
+
+  .section6__image2 {
+    top: 303px;
+    position: absolute;
+    left: 398px;
+  }
+
+  .textContaint {
+    height: 330px;
+    width: 455px;
+    position: absolute;
+    top: 60px;
+    right: 374px;
+    background: rgba(0, 0, 0, 0.61);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 13px;
+    line-height: 49%;
+  }
+
+  .textContaint__text {
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+  }
+
+  .textContaint__text strong {
+    font-weight: bold;
+  }
+  
+
+

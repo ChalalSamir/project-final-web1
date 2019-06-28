@@ -3,39 +3,43 @@ require 'assets/config/bootstrap.php';
 include 'assets/inc/header.php';
 ?>
 <main class="container body">
-<section class="section section--horizontal" id="chapterOne">
-<div class="chapter chapter--art2" id="chapter">
-          <div class="line">
-            <div class="line line__in" id="line__in"></div>
-            <div class="round is--in">
+
+  <section class="section section--horizontal" id="chapterOne">
+    <div class="chapter chapter--art2" id="chapter">
+    <!-- progress bar -->
+      <div class="line">
+          <div class="line line__in" id="line__in"></div>
+
+          <div class="round is--in">
             <a href="#one"><p class="round--title" id="roundOne"></p></a>
-            </div>
-            <div class="round">
-            <a href="#two"><p class="round--title" id="roundTwo"></p></a>
-            </div>
-            <div class="round">
-             <a href="#three"> <p class="round--title" id="roundThree"></p></a>
-            </div>
-            <div class="round">
-              <a href="#four"><p class="round--title" id="roundFour"></p></a>
           </div>
           <div class="round">
-              <a href="#five"><p class="round--title" id="roundFive"></p></a>
+            <a href="#two"><p class="round--title" id="roundTwo"></p></a>
           </div>
+          <div class="round">
+            <a href="#three"> <p class="round--title" id="roundThree"></p></a>
           </div>
-        </div>
+          <div class="round">
+            <a href="#four"><p class="round--title" id="roundFour"></p></a>
+          </div>
+          <div class="round">
+            <a href="#five"><p class="round--title" id="roundFive"></p></a>
+          </div>
+
       </div>
-	<div class="section__inner">
-		<div class="products" id="productList">
+    </div>
+
+	    <div class="section__inner">
+		    <div class="products" id="productList">
       <!-- home page -->
-			<div class="products__product section--horizontal">
-				<div class="home__text">
-          <h1 class="product__author"><span class="v">V</span>alerie Legasov</h1>
-          <div class="cursor" id="cursor"></div>
-					<h2 class="product__date">1936 - 1938</h2>
-					<h2 class="product__title" id="firstArticle">L'envers du décor</h2>
-					<div class="next"><a href="#one"><img src="assets/images/arrow.svg" alt="arrowNext"></a></div>
-				</div>
+			    <div class="products__product section--horizontal">
+				    <div class="home__text">
+               <h1 class="product__author"><span class="v">V</span>alerie Legasov</h1>
+             <!--  <div class="cursor" id="cursor"></div> -->
+              <h2 class="product__date">1936 - 1938</h2>
+              <h2 class="product__title" id="firstArticle">L'envers du décor</h2>
+					  <div class="next"><a href="#one"><img src="assets/images/arrow.svg" alt="arrowNext"></a></div>
+				  </div>
 				<div class="blocHome"></div>
       </div>
       
@@ -50,10 +54,9 @@ include 'assets/inc/header.php';
 							<span class="bold">Valery Legasov</span> fut parmis les initiateurs du programme nucléaire soviétique.
 						</p>
 					</div>
-			</div>
-		</div>
-
-	</div>
+        </div>
+      </div>
+    </div>
 </section>
 
 <div class="article--two">
@@ -181,8 +184,8 @@ include 'assets/inc/header.php';
         <div class="page3__video">
         <video controls width="950">
 
-<source src="./assets/videos/article2-video2.mp4" type="video/mp4">
-</video>
+          <source src="./assets/videos/article2-video2.mp4" type="video/mp4">
+        </video>
         </div>
       </div>
 
@@ -238,14 +241,16 @@ include 'assets/inc/header.php';
 
 
     <section class="articleThree" id="three">
-        <div class="products__product5 section--horizontal">
-              <div class="first_title">
-                    <h1 id="titleArticleThree"></h1>
-                    <div></div>
-                </div>
-              </div>
-          </div> 
+      <div class="products__product5 section--horizontal">
+        <div class="first_title">
+          <h1 id="titleArticleThree"></h1>
+          <div></div>
+        </div>
+      </div> 
     </section>
+
+
+</section>
 
     <section class="second">
       <div class="second__image">
@@ -280,6 +285,118 @@ include 'assets/inc/header.php';
       </div>
     </section>
 
-</section>
+  <section class="section section--horizontal">
+      <div class="section__inner">
+        <div class="products" id="productList">
+
+        <div class="products__product3 section--horizontal">
+          
+            <div class="five_circle">
+              <h1 class="five_circle_number">2</h1>
+            </div>
+
+            <p class="five_title">Materiel défectueux</p>
+
+            <h2 class="five__subtitle">Réacteur RBMK</h2>
+
+            <ul class="five__containt">
+              <li>Le cœur des reacteurs rbmk est instable en dessous de 700 MWth.</li>
+              <li>En clair, à faible puissance  le réacteur devient difficilement contrôlable. </li>
+              <li>L’explosion de Tchernobyl s’est produite, précisément, lors d’un essai à faible
+                 puissance c’est-à-dire dans un contexte d’instabilité de ce réacteur. </li>
+              <li>Les réacteurs autres que RBMK toute réaction nucléaire tendant à 
+                l’emballement est, par conception du réacteur, automatiquement ralentie.</li>
+              <li>Les ingénieurs russes connaissaient cette instabilité</li>
+            </ul>
+
+
+     
+        </div>
+
+        <div class="products__product6 section--horizontal">
+          <div class="first_div"> 
+            <h1>Politique</h1>
+            <div></div>
+          </div>
+        </div>
+
+      </div>
+    </div> 
+  </section>
+
+  <section class="second">
+    <div class="second_div">
+    <p><span class="span_big">Légassov,</span> reproche a l’union soviétique de produire
+    des réacteurs qui ne respectent pas <span class="span_font">les normes de sécurité</span>,
+    malgré l’alerte de nombreux scientifiques.</p>
+    </div>
+  </section>
+
+
+  <section class="section section--horizontal" style="width: 400vw;">
+      <div class="section__inner" style="width: 400vw;">
+        <div class="products" id="productList">
+
+        <div class="products__product7 section--horizontal">
+          <section class="three">
+            <div class="three_div">
+            <p class="three_text-first">Cette négligence s’explique par
+            le climat de guerre froide qui règnait
+            à l’époque de la construction de la centrale.</p>
+
+            <p class="three_text-second">La course à la technologie entre 
+            l’URSS et les Etats unis a incitée
+            le bloc de l’est à précipiter la construction
+            de la centrale en négligeant certaines normes de
+            sécurité,</p>
+
+            <p class="three_text-three">pour produire un maximum d’énergie 
+            le plus rapidement possible avec des matériaux moins couteux
+            tel que le graphite</p>
+            </div>
+          </section> 
+        </div>
+
+        <div class="products__product6 section--horizontal">
+          <img class="section4__image" src="assets/images/rectangle3.png" alt="">
+          <p class="section4__text">
+          Légasov a exprimé sa désillusion quant à la gestion de la 
+          catastrophe par les autorités russes.
+          </p>
+        </div>
+
+        <div class="products__product6 section--horizontal">
+          <img class="section5__image" src="assets/images/rectangle4.png" alt="">
+          <p class="section5__text">
+          “Des robots biologiques”
+          </p>
+          <img src="assets/images/article4--image1.png" alt="" class="section5__image1">
+          <p class="section5__text1">Afin de ne pas divulguer le réel taux
+             de radioactivité  aux yeux de la scène internationale
+          </p>
+        </div>
+
+        <div class="products__product6 section--horizontal">
+          <img class="section6__image" src="assets/images/rectangle3.png" alt="">
+          <p class="section6__text">
+          l’Union soviétique préfère sacrifier des hommes.
+          </p>
+          <img src="assets/images/article4--image2.png" alt="" class="section6__image1">
+          <img src="assets/images/article4--image3.png" alt="" class="section6__image2">
+          <div class="textContaint">
+            <p class="textContaint__text">
+              Ce sont donc les <strong>“liquidateurs”</strong>. composés d’hommes volontaires
+              pour la plupart qui s’exposeront mortellement aux radiations
+              afin de décontaminer la région de tchernobyl.
+            </p>
+          </div>
+          
+        </div>
+
+      </div>
+    </div> 
+  </section> 
+
+
 
 <?php include 'assets/inc/footer.php'; ?>
