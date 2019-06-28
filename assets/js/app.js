@@ -142,6 +142,4 @@ vid.addEventListener('mouseover', (e) => {
 vid.addEventListener('mouseleave', (e) => {
   vid.pause();
   audio.play();
-
-
 })
