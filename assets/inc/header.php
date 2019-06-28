@@ -11,6 +11,7 @@
     <script defer src="assets/js/articleTwo.js"></script>
     <script defer src="assets/js/articleThree.js"></script>
     <script defer src="assets/js/articleFour.js"></script>
+    <script defer src="assets/js/articleFive.js"></script>
     <script defer src="assets/js/getChapter.js"></script>
     <script defer src="assets/js/waypoint/waypoint.js"></script>
 

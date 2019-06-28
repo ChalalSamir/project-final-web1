@@ -345,7 +345,6 @@ include 'assets/inc/header.php';
           <p class="section5__text1" id="paragraphFiveArticleFour">
           </p>
         </div>
-
         <div class="products__product6 section--horizontal">
           <img class="section6__image" src="assets/images/rectangle3.png" alt="">
           <p class="section6__text" id="paragraphSixArticleFour">

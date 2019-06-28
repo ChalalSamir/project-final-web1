@@ -21,7 +21,7 @@ let articleFive = (id) => {
     paragraphOneArticleFive.innerHTML = `${data.articles[id].paragraph_one}`;
     paragraphTwoArticleFive.innerHTML = `${data.articles[id].paragraph_two}`;
     paragraphThreeArticleFive.innerHTML = `${data.articles[id].paragraph_three}`;
-    paragraphFiveArticleFive.innerHTML = `${data.articles[id].paragraph_four}`;
+    paragraphFourArticleFive.innerHTML = `${data.articles[id].paragraph_four}`;
     paragraphFiveArticleFive.innerHTML = `${data.articles[id].paragraph_five}`;
     paragraphSixArticleFive.innerHTML = `${data.articles[id].paragraph_six}`;
     paragraphSevenArticleFive.innerHTML = `${data.articles[id].paragraph_seven}`;
