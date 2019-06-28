@@ -2072,13 +2072,19 @@ font-weight: 200;
   height: 273px;
   background-color: rgba(0, 0, 0, 0.76);
   margin-top: 10px;
+  color: white;
+  font-size: 30px
 }
+
+
 
 .page2_text2 {
   width: 331px;
   height: 391px;
   background-color: rgba(0, 0, 0, 0.76);
   margin-top: 30px;
+  color: white;
+  font-size: 30px
 }
 
 .page2_text3 {
@@ -2087,18 +2093,20 @@ font-weight: 200;
   background-color: rgba(0, 0, 0, 0.76);
   margin-top: 30px;
   position: absolute;
-  top: 871px;
+  top: 700px;
+  color: white;
+  font-size: 30px
 }
 
 .page2__image1 {
-  width: 614px;
-height: 378px;
+  width: 522px;
+  height: 287px;
 }
 
 .page2__image2 {
-  width: 614px;
-height: 755px;
-margin-top: 30px;
+  width: 522px;
+  height: 627px;
+  margin-top: 30px;
 }
 
 
