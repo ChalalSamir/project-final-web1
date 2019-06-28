@@ -22,7 +22,7 @@ let getChapter = () => {
   let round__two = document.getElementById('round__two');
   let round__three = document.getElementById('round__three');
   window.addEventListener('wheel', () => {
-
+    console.log(window.scrollY);
     if (window.scrollY > 2724 && window.scrollY < 7350) {
       round__one.classList.add('is--in');
       roundOne.style.color = '#5E9E97';
@@ -41,13 +41,33 @@ let getChapter = () => {
       roundTwo.style.color = 'white';
     }
 
-    if (window.scrollY > 16215 && window.scrollY < 20062) {
+    if (window.scrollY > 16215 && window.scrollY < 21615) {
       round__three.classList.add('is--in');
       roundThree.style.color = '#5E9E97';
       roundThree.style.transition = '1s';
     } else {
       round__three.classList.remove('is--in');
       roundThree.style.color = 'white';
+
+    }
+
+    if (window.scrollY > 21615 && window.scrollY < 27466) {
+      round__four.classList.add('is--in');
+      roundFour.style.color = '#5E9E97';
+      roundFour.style.transition = '1s';
+    } else {
+      round__four.classList.remove('is--in');
+      roundFour.style.color = 'white';
+
+    }
+
+    if (window.scrollY > 27466 && window.scrollY < 28466) {
+      round__five.classList.add('is--in');
+      roundFive.style.color = '#5E9E97';
+      roundFive.style.transition = '1s';
+    } else {
+      round__five.classList.remove('is--in');
+      roundFive.style.color = 'white';
 
     }
   })

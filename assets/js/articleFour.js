@@ -37,4 +37,4 @@ let articleFour = (id) => {
     paragraphThirtheenArticleFour.innerHTML = `${data.articles[id].paragraph_thirtheen}`;
   }).catch(err => console.error(err))
 }
-articleFour(3);
+articleFour(1);
