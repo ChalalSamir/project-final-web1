@@ -21,3 +21,6 @@
     <title>TchernoByLegassov</title>
 </head>
 <body>
+<audio autoplay>
+    <source src="assets/videos/fondSonore.mp3" type="audio/mp3">
+</audio>

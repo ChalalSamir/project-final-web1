@@ -369,7 +369,7 @@ body {
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  right: 16px;
+  right: 0;
 }
 
 .right h2 {
@@ -1393,13 +1393,18 @@ p .span_white {
   justify-content: space-between;
   margin-right: 159px;
   font-weight: 100;
+  margin-top: 100px;
 }
 
 .five__containt li:nth-child(3) {
-  width: 795px;
+  width: 1075px;
 }
 .five__containt li:nth-child(4) {
   width: 1212px;
+}
+
+.five__containt li {
+  margin-top: -120px;
 }
 
 
@@ -1637,3 +1642,209 @@ p .span_white {
   
 
 
+/* article 5 */
+
+@font-face {
+  font-family: oswald-light;
+  src: url(../oswald/oswald.light.ttf);
+}
+
+@font-face {
+  font-family: oswald-regular;
+  src: url(../oswald/oswald.regular.ttf);
+}
+
+.fond {
+  background-image: url('../images/fond5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: -10;
+}
+
+.articleFive_first {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: -10;
+}
+
+.articleFive_first_div {
+  padding-top: 190px;
+  display: flex;
+  justify-content: center;
+}
+
+.articleFive_first_margin {
+  margin-left: 50px;
+}
+
+.articleFive_first_div h1 {
+  font-family: oswald, sans-serif;
+  font-weight: 100;
+  font-size: 108px;
+  color: white;
+  width: 400px;
+}
+
+.articleFive_first_div h1::before { 
+  content: "";
+  display: block;
+  width: 420px;
+  height: 145px;
+  background-color: #471B28;
+  position: absolute;
+  left: 620px;
+  top: 220px;
+  z-index: -1;
+}
+
+
+/* Section 2 */
+
+.articleFive_second {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: -10;
+}
+
+.articleFive_second_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.articleFive_second_div h1 {
+  font-family: oswald-light, sans-serif;
+  font-weight: 100;
+  font-size: 46px;
+  color: white;
+  word-spacing: 5px;
+  width: 900px;
+  text-align: center;
+  line-height: 170%;
+ }
+
+ .span_font-articleFive {
+  font-family: oswald, sans-serif;
+ }
+
+ .span_font-articleFive--size {
+  font-family: oswald, sans-serif;
+  font-size: 52px;
+ }
+
+ /* section 3 */
+
+ .articleFive_three {
+  height: 100vh;
+ }
+
+ /* section 4 */
+
+ .articleFive_for {
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0.5);
+   position: relative;
+   z-index: -10;
+ }
+
+ .articleFive_for_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+ }
+
+.articleFive_for p {
+  font-family: oswald-light, sans-serif;
+  font-weight: 100;
+  font-size: 46px;
+  color: white;
+  word-spacing: 5px;
+  text-align: center;
+  line-height: 170%;
+}
+
+/* section 5 */
+
+.articleFive_five {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: -10;
+}
+
+.articleFive_five_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.articleFive_five_div p {
+  font-family: oswald-light, sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+  color: white;
+  word-spacing: 5px;
+  text-align: center;
+  line-height: 170%;
+  width: 1100px;
+}
+
+.span_font_size {
+  font-family: oswald, sans-serif;
+  font-size: 59px;
+}
+
+/* section 6 */
+
+.articleFive_six {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: -10;
+}
+
+.articleFive_six_div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 300px;
+}
+
+.articleFive_six_div h1 {
+  font-family: oswald-light, sans-serif;
+  font-size: 41px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.articleFive_six_div p {
+  font-family: oswald-light, sans-serif;
+  font-size: 33px;
+  line-height: 160%;
+  color: white;
+  width: 1000px;
+  word-spacing: 5px;
+  text-align: right;
+}
+
+.first_letter {
+  font-size: 63px;
+}
+
+.name_size {
+  font-size: 48px;
+}
+
+.articleFive_six_div img {
+  width: 600px;
+  margin-bottom: 120px;
+}

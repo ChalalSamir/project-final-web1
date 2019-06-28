@@ -2,10 +2,11 @@
 require 'assets/config/bootstrap.php';
 include 'assets/inc/header.php';
 ?>
+
 <main class="container body">
 <section class="section section--horizontal" id="chapterOne">
     <div class="cursor" id="cursor"></div>
-<div class="chapter chapter--art2" id="chapter">
+      <div class="chapter chapter--art2" id="chapter">
           <div class="line">
             <!-- <div class="line line__in" id="line__in"></div> -->
             <div class="round" id="round__one">
@@ -212,65 +213,60 @@ include 'assets/inc/header.php';
 </div>
 
 
-
 <section class="section section--horizontal">
 	<div class="section__inner">
 		<div class="products" id="productList">
-      
-			<div class="products__product3 section--horizontal">
 
+			<div class="products__product3 section--horizontal">
         <div class="articleTwo__page8">
           <div class="chemin chemin15"></div>
-            <p id="paragraphNineArticleTwo">
-            </p>
-          </div>
-       
+          <p id="paragraphNineArticleTwo"></p>  
+        </div>    
       </div>
 <!-- FIN ARTICLE 2 -->
 
-
-    <section class="articleThree" id="three">
       <div class="products__product5 section--horizontal">
         <div class="first_title">
           <h1 id="titleArticleThree"></h1>
           <div></div>
         </div>
-      </div> 
-    </section>
+      </div>
 
-
+    </div>
+  </div>     
 </section>
 
-    <section class="second">
-      <div class="second__image">
-        <div class="second__text">
-          <p id="contentArticleThree"></p>
-          <p id="dateArticleThree"></p>
-        </div>
-          <img src="assets/images/image1.png" alt="image"/>
+  <section class="second">
+    <div class="second__image">
+      <div class="second__text">
+        <p id="contentArticleThree"></p>
+        <p id="dateArticleThree"></p>
       </div>
-    </section>
+        <img src="assets/images/image1.png" alt="image"/>
+    </div>
+  </section>
 
-    <section class="three">
-      <div class="three_text">
-        <p id="paragraphOneArticleThree"></p>
-        <p id="paragraphTwoArticleThree" class="three_text--second"></p>
-        <div></div>
-      </div>
-    </section>
-    <section class="foor">
-      <div class="foor_circle">
-      <p class="foor_circle_number">1</p>
-      </div>
-      <h1 id="paragraphThreeArticleThree"></h1>
-      <div class="foor__image">
-      <img src="assets/images/image 2.png" alt="image" />
-      <div class="foor_text">
-      <p id="paragraphFourArticleThree"></p>
-      <p id="paragraphFiveArticleThree"></p>
-      </div>
-      </div>
-    </section>
+  <section class="three">
+    <div class="three_text">
+      <p id="paragraphOneArticleThree"></p>
+      <p id="paragraphTwoArticleThree" class="three_text--second"></p>
+      <div></div>
+    </div>
+  </section>
+
+  <section class="foor">
+    <div class="foor_circle">
+    <p class="foor_circle_number">1</p>
+    </div>
+    <h1 id="paragraphThreeArticleThree"></h1>
+    <div class="foor__image">
+    <img src="assets/images/image 2.png" alt="image" />
+    <div class="foor_text">
+    <p id="paragraphFourArticleThree"></p>
+    <p id="paragraphFiveArticleThree"></p>
+    </div>
+    </div>
+  </section>
 
   <section class="section section--horizontal">
       <div class="section__inner">
@@ -320,8 +316,8 @@ include 'assets/inc/header.php';
   </section>
 
 
-  <section class="section section--horizontal" style="width: 400vw;">
-      <div class="section__inner" style="width: 400vw;">
+  <section class="section section--horizontal" style="width: 500vw;">
+      <div class="section__inner" style="width: 500vw;">
         <div class="products" id="productList">
 
         <div class="products__product7 section--horizontal">
@@ -380,9 +376,13 @@ include 'assets/inc/header.php';
           
         </div>
 
+
+
       </div>
     </div> 
   </section> 
+
+
 
 
 
