@@ -705,6 +705,7 @@ animation: up 2s forwards;
 .page3__video {
   width: 50vw;
   height: 100vh;
+  margin-top: 100px;
 }
 
 .article2__video1 {
@@ -956,11 +957,11 @@ font-weight: 100;
 
 .chemin8 {
   position: absolute;
-  width: 700px;
+  width: 524px;
   height: 1px;
   background: white;
   z-index: 1;
-  right: 30%;
+  right: 41%;
   top: 197px;
 
 }

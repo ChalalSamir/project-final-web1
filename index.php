@@ -424,7 +424,7 @@ include 'assets/inc/header.php';
     <div class="products__product8 section--horizontal">
       <section class="articleFive_first">
         <div class="articleFive_first_div">
-        <h1><span class="articleFive_first_margin">Mort de</span> Legasov</h1>
+        <h1><span class="articleFive_first_margin">Mort de</span> Legassov</h1>
         </div>
       </section>
     </div>

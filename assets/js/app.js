@@ -132,14 +132,17 @@ sound.addEventListener('click', () => {
   }
 });
 
-let vid = document.getElementById('bgvid');
+let vid = document.querySelectorAll('video');
+for (let i = 0; i < vid.length; i++) {
 
-vid.addEventListener('mouseover', (e) => {
-  vid.play();
-  audio.pause();
-});
-
-vid.addEventListener('mouseleave', (e) => {
-  vid.pause();
-  audio.play();
-})
+  vid[i].addEventListener('mouseover', (e) => {
+    vid[i].play();
+    audio.pause();
+  });
+  
+  vid[i].addEventListener('mouseleave', (e) => {
+    vid[i ].pause();
+    audio.play();
+  })
+  
+}
