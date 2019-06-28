@@ -111,4 +111,11 @@ let cursor = document.getElementById('cursor');
 
 document.addEventListener('mousemove', e => {
   cursor.setAttribute('style', 'top:' + (e.pageY + -5) + 'px; left:' + (e.pageX - 10) + 'px;');
+});
+
+var waypoint = new Waypoint({
+  element: document.getElementById('articleFour'),
+  handler: function (direction) {
+    document.getElementById('articleFour').classList.add('article4__text--animation');
+  }
 })

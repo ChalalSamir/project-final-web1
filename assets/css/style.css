@@ -5,7 +5,15 @@
 }
 
 /* KEYFRAMES     */
+@keyframes chemin {
+  from {
+   opacity: 0;
+  }
 
+  to {
+   opacity: 1;
+  }
+}
 @keyframes translate542 {
   from {
     transform: translateX(-542px)
@@ -297,6 +305,10 @@ body {
   border-radius: 10px;
 }
 
+.postit:hover, .notes:hover {
+  cursor: pointer;
+}
+
 .postit__in {
   width: 45px;
   height: 100%;
@@ -356,6 +368,7 @@ body {
   position: relative;
   line-height: 120%;
   animation: triangle--text 3s;
+  right: 70px;
 }
 
 .bold {
@@ -433,6 +446,7 @@ body {
   border-radius: 10px;
   position: relative;
   transition: 300ms;
+  z-index: 100;
 }
 
 .round:hover {
@@ -491,7 +505,6 @@ body {
   text-align: center;
   z-index: 0;
   animation: postit 1s infinite alternate;
-
 }
 
 .notes p {
@@ -593,7 +606,7 @@ transform: translateY(100%);
 .articleTwo__title {
   color: white;
   font-size: 6rem;
-  font-family: Agency, sans-serif;
+  font-family: Oswald, sans-serif;
   z-index: 1;
   animation: fadein 2s forwards;
   animation-delay: 500ms;
@@ -751,6 +764,10 @@ transform: translateY(100%);
   line-height: 137%;
 }
 
+
+.chemin {
+  animation: chemin 4s forwards; 
+}
 .chemin1 {
   height: 1px;
   width: 100px;
@@ -859,11 +876,13 @@ transform: translateY(100%);
   justify-content: space-around;
   color: white;
   font-size: 1.5rem;
-  transform: translateX(-542px);
+  transform: translateX(-542px); 
   animation: translate542 1s forwards;
-  animation-delay: 1s;
-  
+  animation-delay: 10s;
+
 }
+
+
 
 .article4__text p{
   opacity: 0;
@@ -1152,7 +1171,6 @@ transform: translateY(100%);
 
 .first_title h1 {
   font-family: 'Oswald', sans-serif;
-  font-weight: 100;
   font-size: 108px;
   color: white;
   text-align: center;
